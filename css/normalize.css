@@ -18,6 +18,9 @@ html {
 
 body {
   margin: 0;
+  background-color: black;
+  color: #000000;
+
 }
 
 /* HTML5 display definitions
@@ -133,8 +136,12 @@ dfn {
  */
 
 h1 {
+  text-align: center;
   font-size: 2em;
   margin: 0.67em 0;
+}
+h4 {
+  text-align: center;
 }
 
 /**
