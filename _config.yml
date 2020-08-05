@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Will Handley
+logo: /assets/img/will_handley.jpeg
 email: wh260@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Will Handley's homepage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.willhandley.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: falsewhenquined
 github_username:  williamjameshandley
 
 # Build settings
