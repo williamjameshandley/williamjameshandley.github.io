@@ -1,5 +1,0 @@
-order deny,allow
-deny from all
-AuthType Ucam-WebAuth
-Require valid-user
-Satisfy any
