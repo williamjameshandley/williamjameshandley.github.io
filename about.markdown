@@ -1,18 +1,18 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
+![Will Handley](/assets/images/will_handley.jpg){: style="width: 50%; float: right"}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Will Handley is a Royal Society University Research Fellow and Turing Fellow whose research centres around early universe cosmology and Bayesian machine learning.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics has on the universe a split second after the Big Bang. His current research is focused on examining the theoretical and observational consequences of primordial curvature, searching for imprints in the cosmic microwave background of the shape of the universe at the beginning of time.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+In addition to theoretical investigation, he also examines the observational consequences of these new ideas; testing theories against the latest data from microwave telescopes and large scale structure surveys using the University supercomputers.
 
+He works on developing novel Bayesian machine learning algorithms for high-dimensional parameter estimation, model comparison and tension quantification using nested sampling. Possible applications currently under investigation include protein folding, sparse reconstruction for facial recognition and Bayesian neural network training.
 
-[jekyll-organization]: https://github.com/jekyll
+He leads the data analysis team for REACH, a team of cosmologists designing and operating a radio telescope to make an unambiguous detection of the global 21cm signal coming from the cosmic dawn.
+
+He is a convener of the GAMBIT cosmology working group, working with a community of cosmologists, particle physicists and statisticians who use terrestrial collider data in conjunction with astrophysical observations to constrain theories of dark matter, neutrinos and modified gravity.
