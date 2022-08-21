@@ -11,6 +11,11 @@ Here is a list of past and present students and postdocs I have supervised.
 # Present students & postdocs
 
 
+
+
+# Present students & postdocs
+
+
 <table>
   <tr>
     <td style="width:70%">David Yallup<ul><li>Post-Doc: Jan 2021 to present</li><li><a href="https://arxiv.org/search/?query=handley%2C+w%3B+Yallup%2CD&amp;searchtype=author">Research papers (3)</a></li></ul></td>
@@ -179,7 +184,9 @@ Here is a list of past and present students and postdocs I have supervised.
   </tr>
   <tr>
     <td style="width:70%">Jamie Bamber<ul><li>Part III student: Oct 2018 to Jun 2019</li><li><a href="https://arxiv.org/search/?query=handley%2C+w%3B+Bamber%2CJ&amp;searchtype=author">Research papers (1)</a></li></ul></td>
-    <td style="width:30%"></td>
+    <td style="width:30%">
+      <img src="/assets/students/images/originals/jamie_bamber.JPG" />
+    </td>
   </tr>
   <tr>
     <td style="width:70%">Jessica Rigley<ul><li>Part III student: Oct 2017 to Jun 2018</li></ul></td>
@@ -256,3 +263,5 @@ Here is a list of past and present students and postdocs I have supervised.
     <td style="width:30%"></td>
   </tr>
 </table>
+
+![Timeline of students and postdocs](/assets/students/timeline.png)

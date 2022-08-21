@@ -5,6 +5,7 @@ layout: home
 ![Bayesian Machine Learning and Cosmology](/assets/images/Planck-Sphere-Combined.png){: style="width: 50%;float: right"}
 
 ## Quick links:
+- [Students & Postdocs](/students)
 - [CV](https://github.com/williamjameshandley/CV/raw/master/CV.pdf)
 - [Research papers](https://arxiv.org/a/handley_w_1.html)
 - [Talks](https://github.com/williamjameshandley/talks)
