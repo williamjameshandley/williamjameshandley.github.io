@@ -49,6 +49,15 @@ with open(html_file, 'w') as f:
         with doc.tag('table'):
             for dat in df.data.to_list():
                 with doc.tag('tr'):
+
+                    with doc.tag('td', style="width:30%"):
+                        if dat[0].original_image:
+                            src = os.path.join('/assets/students/', dat[0].original_image)
+                        else:
+                            src = "/assets/images/user.png"
+                        doc.stag('img', src=src, style="border-radius: 20%")
+
+
                     with doc.tag('td'):
                         name = dat[0].name
                         with doc.tag('h3'):
@@ -81,12 +90,5 @@ with open(html_file, 'w') as f:
                                             for l in d.links:
                                                 with doc.tag('li'):
                                                     doc.asis(l)
-
-                    with doc.tag('td', style="width:30%"):
-                        if dat[0].original_image:
-                            src = os.path.join('/assets/students/', dat[0].original_image)
-                        else:
-                            src = "/assets/images/user.png"
-                        doc.stag('img', src=src, style="border-radius: 20%")
 
         f.write(indent(doc.getvalue()))
