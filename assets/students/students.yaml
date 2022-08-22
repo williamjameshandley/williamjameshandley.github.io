@@ -4,6 +4,7 @@
   end: 2019-10-01
   email: linkedin
   original_image: images/originals/kamran_javid.jpeg
+  image: images/kamran_javid.jpg
   links:
   - <a href="https://scholar.google.com/citations?user=USKsovMAAAAJ">Google scholar</a>
   - <a href="https://www.linkedin.com/in/kamranjavid91">linkedin</a>
@@ -12,6 +13,7 @@
   start: 2021-01-10
   email: david.yallup@gmail.com
   original_image: images/originals/david_yallup.jpg
+  image: images/david_yallup.jpg
   links:
   - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
   - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
@@ -40,6 +42,7 @@
   end: 2021-09-01
   email: fagocs@flatironinstitute.org
   original_image: images/originals/fruzsina_agocs.jpg
+  image: images/fruzsina_agocs.jpg
   co_supervisors:
   - AL
   - MH
@@ -57,6 +60,7 @@
   end: 2021-08-25
   email: wb263@cam.ac.uk
   original_image: images/originals/will_barker.png
+  image: images/will_barker.jpg
   co_supervisors:
   - AL
   - MH
@@ -113,7 +117,8 @@
   level: phd
   start: 2020-10-01
   email: gtc30@cam.ac.uk
-  original_image: images/originals/george_carter.jpg
+  original_image: originals/images/george_carter.jpg
+  image: images/george_carter.jpg
   co_supervisors:
   - NR
   - MA
@@ -130,6 +135,7 @@
   start: 2020-12-01
   email: khs40@cam.ac.uk
   original_image: images/originals/kilian_scheutwinkel.JPG
+  image: images/kilian_scheutwinkel.jpg
   co_supervisors:
   - EA
   links:
@@ -238,6 +244,7 @@
   end: 2019-06-01
   email: deaglan.bartlett@physics.ox.ac.uk
   original_image: images/originals/deaglan_bartlett.JPG
+  image: images/deaglan_bartlett.jpg
   links:
   - <a href="https://www.physics.ox.ac.uk/our-people/bartlett">Webpage</a>
   - <a href="https://arxiv.org/a/bartlett_d_1">arXiv</a>
@@ -245,8 +252,9 @@
   level: partiii
   start: 2018-10-01
   end: 2019-06-01
-  email: deaglan.bartlett@physics.ox.ac.uk
+  email: james.bamber@univ.ox.ac.uk
   original_image: images/originals/jamie_bamber.JPG
+  image: images/jamie_bamber.jpg
 - name: Aleksandr Petrosyan
   level: partiii
   start: 2019-10-01
@@ -276,6 +284,7 @@
   end: 2021-06-01
   email: loh.yijer@live.com
   original_image: images/originals/yi_jer_loh.jpg
+  image: images/yi_jer_loh.jpg
 - name: Carola Zanoletti
   level: partiii
   start: 2021-10-01
@@ -291,8 +300,9 @@
   level: partiii
   start: 2021-10-01
   end: 2022-06-01
-  email: ocn22@cam.ac.uk
+  email: oliver@normand.uk
   original_image: images/originals/oliver_normand.jpg
+  image: images/oliver_normand.jpg
 - name: Xy Wang
   level: partiii
   start: 2021-10-01
@@ -307,6 +317,7 @@
   end: 2022-06-01
   email: yl844@cam.ac.uk
   original_image: images/originals/yoann_launay.jpg
+  image: images/yoann_launay.jpg
   links:
   - Nantes
 - name: Elizabeth Guest

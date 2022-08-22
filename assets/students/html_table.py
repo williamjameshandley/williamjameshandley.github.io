@@ -17,7 +17,7 @@ df = group.to_frame()
 df['start'] = df.data.apply(lambda x: x[0].start)
 df['end'] = df.data.apply(lambda x: x[0].end)
 df['level'] = df.data.apply(lambda x: x[0].level)
-df['seniority'] = df.level.apply(lambda x: seniority[x])
+df['seniority'] = df.data.apply(lambda x: min([seniority[xi.level] for xi in x]))
 df['present'] = df.data.apply(lambda x: x[0].end is None)
 
 present = df[df.present].sort_values(['seniority','start']) 
@@ -53,7 +53,9 @@ with open(html_file, 'w') as f:
                 with doc.tag('tr', style="border:none"):
 
                     with doc.tag('td', style="width:30%;border:none"):
-                        if dat[0].original_image:
+                        if dat[0].image:
+                            src = os.path.join('/assets/students/', dat[0].image)
+                        elif dat[0].original_image:
                             src = os.path.join('/assets/students/', dat[0].original_image)
                         else:
                             src = "/assets/images/user.png"
