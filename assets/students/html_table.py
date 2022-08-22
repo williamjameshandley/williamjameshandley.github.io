@@ -87,6 +87,6 @@ with open(html_file, 'w') as f:
                             src = os.path.join('/assets/students/', dat[0].original_image)
                         else:
                             src = "/assets/images/user.png"
-                        doc.stag('img', src=src)
+                        doc.stag('img', src=src, style="border-radius: 20%")
 
         f.write(indent(doc.getvalue()))
