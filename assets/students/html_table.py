@@ -44,7 +44,7 @@ for i, df in enumerate([present, past]):
     with tag('table'):
         for dat in df.data.to_list():
             with tag('tr'):
-                with tag('td', style="width:70%"):
+                with tag('td'):
                     name = dat[0].name
                     text(name)
                     with tag('ul'):
@@ -75,9 +75,10 @@ for i, df in enumerate([present, past]):
 
                 with tag('td', style="width:30%"):
                     if dat[0].original_image:
-                        src = os.path.join('/assets/students/',
-                                           dat[0].original_image)
-                        doc.stag('img', src=src)
+                        src = os.path.join('/assets/students/', dat[0].original_image)
+                    else:
+                        src = "/assets/images/user.png"
+                    doc.stag('img', src=src)
 
 
     print(indent(doc.getvalue()))
