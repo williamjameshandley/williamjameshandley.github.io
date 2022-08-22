@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Generating student timeline"
+assets/students/timeline.py
+echo "Generating student table"
+assets/students/html_table.py
