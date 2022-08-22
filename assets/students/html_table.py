@@ -35,9 +35,9 @@ def npapers(name, i):
 
 for i, df in enumerate([present, past]):
     if i==0:
-        print('\n\n# Present students & postdocs\n\n')
+        print('\n\n# Present\n\n')
     else:
-        print('\n\n# Past students & postdocs\n\n')
+        print('\n\n# Past\n\n')
 
     doc, tag, text, line = Doc().ttl()
 

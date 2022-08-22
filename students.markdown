@@ -4,15 +4,12 @@ title: Students & Postdocs
 permalink: /students/
 ---
 
-Here is a list of past and present students and postdocs I have supervised.
-
-
 ![Timeline of students and postdocs](/assets/students/timeline.png)
 
 
 
 
-# Present students & postdocs
+# Present
 
 
 <table>
@@ -97,7 +94,7 @@ Here is a list of past and present students and postdocs I have supervised.
 </table>
 
 
-# Past students & postdocs
+# Past
 
 
 <table>
