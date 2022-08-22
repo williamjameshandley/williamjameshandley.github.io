@@ -63,7 +63,7 @@ with open(html_file, 'w') as f:
                                         with doc.tag('ul'):
                                             with doc.tag('li'):
                                                 text = ', '.join([co_supervisors[cs] for cs in d.co_supervisors])
-                                                doc.asis("co-supervised by %s" % text)
+                                                doc.asis("co-supervised with %s" % text)
 
                             arr = name.split(' ')
                             surname = arr[-1]
