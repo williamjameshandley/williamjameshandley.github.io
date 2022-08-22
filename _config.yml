@@ -3,7 +3,7 @@ author:
   name: Will Handley
   email: wh260@cam.ac.uk
 description: > # this means to ignore newlines until "show_excerpts:"
-  Will Handley's academic website
+  Will Handley's academic website: Cosmology; Particle Physics; Bayesian inference; Machine Learning; Data intensive science; Nested Sampling.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
