@@ -22,12 +22,14 @@ df['present'] = df.data.apply(lambda x: x[0].end is None)
 
 present = df[df.present].sort_values(['seniority','start']) 
 past = df[~df.present].sort_values(['seniority','end'], ascending=[True, False])
+df
 
 url = r'https://arxiv.org/search/?query=handley%%2C+w%%3B+%s%%2C%s&searchtype=author'
 
 import arxiv
 def npapers(name, i):
-    query = 'au:handley_w AND au:%s_%s' % (name, i)
+    query = 'au:Handley_W AND au:%s_%s' % (name, i)
+    query = query.replace('-','_')
     search = arxiv.Search(query=query)
     return len(list(search.results()))
 
