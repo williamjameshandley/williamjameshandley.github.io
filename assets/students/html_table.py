@@ -46,11 +46,11 @@ with open(html_file, 'w') as f:
             with doc.tag('h1'):
                 doc.text("Past")
 
-        with doc.tag('table'):
+        with doc.tag('table', style="border:none"):
             for dat in df.data.to_list():
-                with doc.tag('tr'):
+                with doc.tag('tr', style="border:none"):
 
-                    with doc.tag('td', style="width:30%"):
+                    with doc.tag('td', style="width:30%;border:none"):
                         if dat[0].original_image:
                             src = os.path.join('/assets/students/', dat[0].original_image)
                         else:
@@ -58,37 +58,39 @@ with open(html_file, 'w') as f:
                         doc.stag('img', src=src, style="border-radius: 20%")
 
 
-                    with doc.tag('td'):
+                    with doc.tag('td', style="border:none;"):
                         name = dat[0].name
-                        with doc.tag('h3'):
-                            doc.text(name)
-                        with doc.tag('ul'):
-                            for d in dat:
-                                with doc.tag('li'):
-                                    doc.text('%s from %s' % (levels[d.level], d.start.strftime("%b %Y")))
-                                    if d.end:
-                                        doc.text(' to %s' % d.end.strftime("%b %Y"))
-                                    if d.co_supervisors:
-                                        with doc.tag('ul'):
-                                            with doc.tag('li'):
-                                                text = ', '.join([co_supervisors[cs] for cs in d.co_supervisors])
-                                                doc.asis("co-supervised with %s" % text)
-
-                            arr = name.split(' ')
-                            surname = arr[-1]
-                            forename = arr[0]
-                            n = npapers(surname, forename[0])
-                            if n > 0:
-                                with doc.tag('li'):
-                                    with doc.tag('a', href=url % (surname, forename[0])):
-                                        doc.text("Shared research papers (%i)" % n)
-                            if any([d.links is not None for d in dat]):
-                                doc.line('li', 'Links:')
-                                with doc.tag('ul'):
-                                    for d in dat:
-                                        if d.links is not None:
-                                            for l in d.links:
+                        with doc.tag('p'):
+                            with doc.tag('font', size="+2"):
+                                doc.text(name)
+                        with doc.tag('p'):
+                            with doc.tag('ul'):
+                                for d in dat:
+                                    with doc.tag('li'):
+                                        doc.text('%s from %s' % (levels[d.level], d.start.strftime("%b %Y")))
+                                        if d.end:
+                                            doc.text(' to %s' % d.end.strftime("%b %Y"))
+                                        if d.co_supervisors:
+                                            with doc.tag('ul'):
                                                 with doc.tag('li'):
-                                                    doc.asis(l)
+                                                    text = ', '.join([co_supervisors[cs] for cs in d.co_supervisors])
+                                                    doc.asis("co-supervised with %s" % text)
+
+                                arr = name.split(' ')
+                                surname = arr[-1]
+                                forename = arr[0]
+                                n = npapers(surname, forename[0])
+                                if n > 0:
+                                    with doc.tag('li'):
+                                        with doc.tag('a', href=url % (surname, forename[0])):
+                                            doc.text("Shared research papers (%i)" % n)
+                                if any([d.links is not None for d in dat]):
+                                    doc.line('li', 'Links:')
+                                    with doc.tag('ul'):
+                                        for d in dat:
+                                            if d.links is not None:
+                                                for l in d.links:
+                                                    with doc.tag('li'):
+                                                        doc.asis(l)
 
         f.write(indent(doc.getvalue()))
