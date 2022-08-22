@@ -37,48 +37,52 @@ with open(html_file, 'w') as f:
 
 
     for i, df in enumerate([present, past]):
-        doc, tag, text, line = Doc().ttl()
+        doc = Doc()
 
         if i==0:
-            with tag('h1'):
-                text("Present")
+            with doc.tag('h1'):
+                doc.text("Present")
         else:
-            with tag('h1'):
-                text("Past")
+            with doc.tag('h1'):
+                doc.text("Past")
 
-        with tag('table'):
+        with doc.tag('table'):
             for dat in df.data.to_list():
-                with tag('tr'):
-                    with tag('td'):
+                with doc.tag('tr'):
+                    with doc.tag('td'):
                         name = dat[0].name
-                        text(name)
-                        with tag('ul'):
+                        with doc.tag('h3'):
+                            doc.text(name)
+                        with doc.tag('ul'):
                             for d in dat:
-                                with tag('li'):
-                                    text('%s: %s to ' % (levels[d.level], d.start.strftime("%b %Y")))
+                                with doc.tag('li'):
+                                    doc.text('%s from %s' % (levels[d.level], d.start.strftime("%b %Y")))
                                     if d.end:
-                                        text('%s' % d.end.strftime("%b %Y"))
-                                    else:
-                                        text('present')
+                                        doc.text(' to %s' % d.end.strftime("%b %Y"))
                                     if d.co_supervisors:
-                                        text(" (co-supervised by ")
-                                        for i, cs in enumerate(d.co_supervisors):
-                                            c, u= co_supervisors[cs]
-                                            line('a', c, href=u)
-                                            if i != len(d.co_supervisors)-1:
-                                                text(", ")
-                                        text(")")
+                                        with doc.tag('ul'):
+                                            with doc.tag('li'):
+                                                text = ', '.join([co_supervisors[cs] for cs in d.co_supervisors])
+                                                doc.asis("co-supervised by %s" % text)
+
                             arr = name.split(' ')
                             surname = arr[-1]
                             forename = arr[0]
                             n = npapers(surname, forename[0])
                             if n > 0:
-                                with tag('li'):
-                                    with tag('a', href=url % (surname, forename[0])):
-                                        text("Research papers (%i)" % n)
+                                with doc.tag('li'):
+                                    with doc.tag('a', href=url % (surname, forename[0])):
+                                        doc.text("Shared research papers (%i)" % n)
+                            if any([d.links is not None for d in dat]):
+                                doc.line('li', 'Links:')
+                                with doc.tag('ul'):
+                                    for d in dat:
+                                        if d.links is not None:
+                                            for l in d.links:
+                                                with doc.tag('li'):
+                                                    doc.asis(l)
 
-
-                    with tag('td', style="width:30%"):
+                    with doc.tag('td', style="width:30%"):
                         if dat[0].original_image:
                             src = os.path.join('/assets/students/', dat[0].original_image)
                         else:

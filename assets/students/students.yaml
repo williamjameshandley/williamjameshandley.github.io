@@ -4,11 +4,17 @@
   end: 2019-10-01
   email: linkedin
   original_image: images/originals/kamran_javid.jpeg
+  links:
+  - <a href="https://scholar.google.com/citations?user=USKsovMAAAAJ">Google scholar</a>
+  - <a href="https://www.linkedin.com/in/kamranjavid91">linkedin</a>
 - name: David Yallup
   level: postdoc
   start: 2021-01-10
   email: david.yallup@gmail.com
   original_image: images/originals/david_yallup.jpg
+  links:
+  - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
+  - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
 - name: Ed Higson
   level: phd
   start: 2016-10-01
@@ -26,6 +32,8 @@
   co_supervisors:
   - AL
   - MH
+  links:
+  - <a href="https://phas.ubc.ca/users/lukas-hergt">Webpage</a>
 - name: Fruzsina Agocs
   level: phd
   start: 2017-10-01
@@ -35,6 +43,9 @@
   co_supervisors:
   - AL
   - MH
+  links:
+  - <a href="https://fruzsinaagocs.github.io/">Webpage</a>
+  - <a href="https://www.simonsfoundation.org/people/fruzsina-agocs/">Group webpage</a>
 - name: Kamran Javid
   level: phd
   start: 2017-10-01
@@ -49,6 +60,8 @@
   co_supervisors:
   - AL
   - MH
+  links:
+  - <a href="https://wevbarker.com">Webpage</a>
 - name: Dominic Anstey
   level: phd
   start: 2018-10-01
@@ -63,6 +76,11 @@
   co_supervisors:
   - EA
   - AF
+  links:
+  - <a href="https://htjb.github.io/">Webpage</a>
+  - <a href="https://github.com/htjb">GitHub</a>
+  - <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>
+  - <a href="https://publons.com/researcher/5239833/harry-bevins/">Publons</a>
 - name: Ian Roque
   level: phd
   start: 2019-10-01
@@ -70,12 +88,18 @@
   original_image: images/originals/ian_roque.png
   co_supervisors:
   - NR
+  links:
+  - <a href="https://www.astro.phy.cam.ac.uk/directory/ian-roque">Webpage</a>
 - name: Isidro Gomez Vargas
   level: phd
   start: 2020-03-16
   end: 2020-12-04
   email: igomez@icf.unam.mx
   original_image: images/originals/isidro_gomez_vargas.jpg
+  links:
+  - <a href="https://igomezv.github.io">Webpage</a>
+  - <a href="https://www.fis.unam.mx/directorio/1333/isidro-strong-gomez-strong-vargas">Department
+    webpage</a>
 - name: Thomas Mcaloone
   level: phd
   start: 2020-06-10
@@ -107,6 +131,10 @@
   original_image: images/originals/kilian_scheutwinkel.JPG
   co_supervisors:
   - EA
+  links:
+  - <a href="https://www.c2d3.cam.ac.uk/directory/8681/mr-kilian-scheutwinkel">C2D3
+    profile</a>
+  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
 - name: Adam Ormondroyd
   level: phd
   start: 2021-10-01
@@ -115,6 +143,9 @@
   co_supervisors:
   - AL
   - MH
+  links:
+  - <a href="https://www.linkedin.com/in/adam-ormondroyd/"> linkedin </a>
+  - <a href="https://github.com/ormorod"> GitHub </a>
 - name: Ayngaran Thavanesan
   level: phd
   start: 2021-10-01
@@ -141,6 +172,8 @@
   start: 2018-10-01
   end: 2019-09-15
   email: ilvr2@cam.ac.uk
+  co_supervisors:
+  - NR
 - name: Emma Shen
   level: mphil
   start: 2019-10-01
@@ -161,6 +194,9 @@
   original_image: images/originals/sam_leeney.jpeg
   co_supervisors:
   - EA
+  links:
+  - <a href="https://github.com/samleeney">Webpage</a>
+  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 - name: Daniel Manela
   level: partiii
   start: 2016-10-01
@@ -197,6 +233,9 @@
   end: 2019-06-01
   email: deaglan.bartlett@physics.ox.ac.uk
   original_image: images/originals/deaglan_bartlett.JPG
+  links:
+  - <a href="https://www.physics.ox.ac.uk/our-people/bartlett">Webpage</a>
+  - <a href="https://arxiv.org/a/bartlett_d_1">arXiv</a>
 - name: Jamie Bamber
   level: partiii
   start: 2018-10-01
@@ -218,6 +257,9 @@
   start: 2019-10-01
   end: 2020-06-01
   email: tg400@cam.ac.uk
+  links:
+  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
+  - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
 - name: Metha Prathaban
   level: partiii
   start: 2020-10-01
@@ -235,6 +277,11 @@
   end: 2022-06-01
   email: cmz22@cam.ac.uk
   original_image: images/originals/carola_zanoletti.jpg
+  links:
+  - <a href="https://blogs.ncl.ac.uk/cosmology/">Group webpage</a>
+  - <a href="https://www.mas.ncl.ac.uk/danielle.leonard/">PhD supervisor</a>
+  - <a href="https://research.ncl.ac.uk/phdstudentships/robinsoncosmology/#Leonard">PhD
+    project</a>
 - name: Oliver Normand
   level: partiii
   start: 2021-10-01
@@ -247,18 +294,24 @@
   end: 2022-06-01
   email: yw491@cam.ac.uk
   original_image: images/originals/xy_wang.jpg
+  links:
+  - PhD in germany
 - name: Yoann Launay
   level: partiii
   start: 2021-10-01
   end: 2022-06-01
   email: yl844@cam.ac.uk
   original_image: images/originals/yoann_launay.jpg
+  links:
+  - Nantes
 - name: Elizabeth Guest
   level: summer
   start: 2018-06-01
   end: 2018-09-01
   email: elizabethrguest@gmail.com
   original_image: images/originals/elizabeth_guest.jpg
+  links:
+  - PhD at UCL
 - name: Shu-Fan Chen
   level: summer
   start: 2018-06-01
@@ -276,6 +329,8 @@
   end: 2019-09-01
   email: denis.werth@ens-paris-saclay.fr
   original_image: images/originals/denis_werth.jpg
+  links:
+  - Sorbonne, IAP
 - name: Liam Lau
   level: summer
   start: 2019-06-01
@@ -288,6 +343,9 @@
   end: 2019-09-01
   email: maximejabarian@gmail.com
   original_image: images/originals/maxime_jabarian.jpeg
+  links:
+  - <a href="https://www.linkedin.com/in/maxime-jabarian/">linkedin</a>
+  - <a href="https://www.researchgate.net/profile/Maxime-Jabarian-2">ResearchGate</a>
 - name: Mattia Varrone
   level: summer
   start: 2021-06-21

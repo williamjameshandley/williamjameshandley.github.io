@@ -12,6 +12,7 @@ class Student(object):
         self.original_image = kwargs.pop('original_image', None)
         self.image = kwargs.pop('image', None)
         self.co_supervisors = kwargs.pop('co_supervisors', None)
+        self.links = kwargs.pop('links', None)
 
     def __repr__(self):
         string = self.name
@@ -31,14 +32,14 @@ levels = {'postdoc': 'Post-Doc',
           'partiii': 'Part III student',
           'summer': 'Summer student'}
 
-co_supervisors = {'AL': ("Anthony Lasenby", "https://www.phy.cam.ac.uk/directory/lasenbya"),
-                  'MH': ("Mike Hobson", "https://www.phy.cam.ac.uk/directory/hobsonm"),
-                  'EA': ("Eloy de Lera Acedo", "https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo"),
-                  'AF': ("Anastasia Fialkov", "https://www.ast.cam.ac.uk/people/Anastasia.Fialkov"),
-                  'NR': ("Nima Razavi-Ghods", "https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"),
-                  'MA': ("Mark Ashdown", "https://www.phy.cam.ac.uk/staff/dr-mark-ashdown"),
-                  'KG': ("Keith Grainge", "https://www.research.manchester.ac.uk/portal/keith.grainge.html"),
-                  'MO': ("Malak Olamaie", "https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php"),
+co_supervisors = {'AL': '<a href="https://www.phy.cam.ac.uk/directory/lasenbya">Anthony Lasenby</a>',
+                  'MH': '<a href="https://www.phy.cam.ac.uk/directory/hobsonm">Mike Hobson</a>',
+                  'EA': '<a href="https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo">Eloy de Lera Acedo</a>',
+                  'AF': '<a href="https://www.ast.cam.ac.uk/people/Anastasia.Fialkov">Anastasia Fialkov</a>',
+                  'NR': '<a href="https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"> Nima Razavi-Ghods</a>',
+                  'MA': '<a href="https://www.phy.cam.ac.uk/staff/dr-mark-ashdown">Mark Ashdown</a>',
+                  'KG': '<a href="https://www.research.manchester.ac.uk/portal/keith.grainge.html">Keith Grainge</a>',
+                  'MO': '<a href="https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php">Malak Olamaie</a>',
                   }
 
 yaml_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.yaml')
