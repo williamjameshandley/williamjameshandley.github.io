@@ -10,6 +10,8 @@ Here is a list of past and present students and postdocs I have supervised.
 ![Timeline of students and postdocs](/assets/students/timeline.png)
 
 
+
+
 # Present students & postdocs
 
 
@@ -59,7 +61,7 @@ Here is a list of past and present students and postdocs I have supervised.
     </td>
   </tr>
   <tr>
-    <td style="width:70%">Ayngaran Thavenesan<ul><li>PhD student: Oct 2021 to present</li><li>Part III student: Oct 2019 to Oct 2020</li></ul></td>
+    <td style="width:70%">Ayngaran Thavanesan<ul><li>PhD student: Oct 2021 to present</li><li><a href="https://arxiv.org/search/?query=handley%2C+w%3B+Thavanesan%2CA&amp;searchtype=author">Research papers (1)</a></li></ul></td>
     <td style="width:30%"></td>
   </tr>
   <tr>
@@ -168,6 +170,10 @@ Here is a list of past and present students and postdocs I have supervised.
     <td style="width:30%">
       <img src="/assets/students/images/originals/yi_jer_loh.jpg" />
     </td>
+  </tr>
+  <tr>
+    <td style="width:70%">Ayngaran Thavenesan<ul><li>Part III student: Oct 2019 to Oct 2020</li></ul></td>
+    <td style="width:30%"></td>
   </tr>
   <tr>
     <td style="width:70%">Aleksandr Petrosyan<ul><li>Part III student: Oct 2019 to Jun 2020</li></ul></td>
