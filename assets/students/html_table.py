@@ -31,54 +31,58 @@ def npapers(name, i):
     search = arxiv.Search(query=query)
     return len(list(search.results()))
 
+html_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.html')
+
+with open(html_file, 'w') as f:
 
 
-for i, df in enumerate([present, past]):
-    if i==0:
-        print('\n\n# Present\n\n')
-    else:
-        print('\n\n# Past\n\n')
+    for i, df in enumerate([present, past]):
+        doc, tag, text, line = Doc().ttl()
 
-    doc, tag, text, line = Doc().ttl()
+        if i==0:
+            with tag('h1'):
+                text("Present")
+        else:
+            with tag('h1'):
+                text("Past")
 
-    with tag('table'):
-        for dat in df.data.to_list():
-            with tag('tr'):
-                with tag('td'):
-                    name = dat[0].name
-                    text(name)
-                    with tag('ul'):
-                        for d in dat:
-                            with tag('li'):
-                                text('%s: %s to ' % (levels[d.level], d.start.strftime("%b %Y")))
-                                if d.end:
-                                    text('%s' % d.end.strftime("%b %Y"))
-                                else:
-                                    text('present')
-                                if d.co_supervisors:
-                                    text(" (co-supervised by ")
-                                    for i, cs in enumerate(d.co_supervisors):
-                                        c, u= co_supervisors[cs]
-                                        line('a', c, href=u)
-                                        if i != len(d.co_supervisors)-1:
-                                            text(", ")
-                                    text(")")
-                        arr = name.split(' ')
-                        surname = arr[-1]
-                        forename = arr[0]
-                        n = npapers(surname, forename[0])
-                        if n > 0:
-                            with tag('li'):
-                                with tag('a', href=url % (surname, forename[0])):
-                                    text("Research papers (%i)" % n)
-
-
-                with tag('td', style="width:30%"):
-                    if dat[0].original_image:
-                        src = os.path.join('/assets/students/', dat[0].original_image)
-                    else:
-                        src = "/assets/images/user.png"
-                    doc.stag('img', src=src)
+        with tag('table'):
+            for dat in df.data.to_list():
+                with tag('tr'):
+                    with tag('td'):
+                        name = dat[0].name
+                        text(name)
+                        with tag('ul'):
+                            for d in dat:
+                                with tag('li'):
+                                    text('%s: %s to ' % (levels[d.level], d.start.strftime("%b %Y")))
+                                    if d.end:
+                                        text('%s' % d.end.strftime("%b %Y"))
+                                    else:
+                                        text('present')
+                                    if d.co_supervisors:
+                                        text(" (co-supervised by ")
+                                        for i, cs in enumerate(d.co_supervisors):
+                                            c, u= co_supervisors[cs]
+                                            line('a', c, href=u)
+                                            if i != len(d.co_supervisors)-1:
+                                                text(", ")
+                                        text(")")
+                            arr = name.split(' ')
+                            surname = arr[-1]
+                            forename = arr[0]
+                            n = npapers(surname, forename[0])
+                            if n > 0:
+                                with tag('li'):
+                                    with tag('a', href=url % (surname, forename[0])):
+                                        text("Research papers (%i)" % n)
 
 
-    print(indent(doc.getvalue()))
+                    with tag('td', style="width:30%"):
+                        if dat[0].original_image:
+                            src = os.path.join('/assets/students/', dat[0].original_image)
+                        else:
+                            src = "/assets/images/user.png"
+                        doc.stag('img', src=src)
+
+        f.write(indent(doc.getvalue()))

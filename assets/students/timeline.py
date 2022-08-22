@@ -2,6 +2,7 @@
 from collections import Counter
 from students import students, seniority, levels
 import matplotlib.pyplot as plt
+import os
 import datetime
 import numpy as np
 grey = '#bbbbbb'
@@ -57,7 +58,8 @@ ax.set_yticks([])
 handles, labels = np.transpose([(rects[l], levels[l]) for l in levels])
 ax.legend(handles, labels, labelcolor=grey, framealpha=0.0)
 
+png_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.png')
 
 fig.set_size_inches(9,9)
 fig.tight_layout()
-fig.savefig('timeline.png', transparent=True)
+fig.savefig(png_file, transparent=True)
