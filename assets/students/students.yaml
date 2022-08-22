@@ -224,6 +224,9 @@
   start: 2017-10-01
   end: 2018-06-01
   email: jkr40@cam.ac.uk
+  original_image: images/originals/jessica_rigley.jpeg
+  links:
+  - <a href="https://jessicarigley.com/">Website</a>
 - name: Ward Haddadin
   level: partiii
   start: 2017-10-01
