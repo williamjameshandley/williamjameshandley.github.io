@@ -113,6 +113,7 @@
   level: phd
   start: 2020-10-01
   email: gtc30@cam.ac.uk
+  original_image: images/originals/george_carter.jpg
   co_supervisors:
   - NR
   - MA
@@ -187,6 +188,7 @@
   level: mphil
   start: 2021-10-01
   email: smaa4@cam.ac.uk
+  original_image: images/originals/allahyar_sahibzada.jpeg
 - name: Sam Leeney
   level: mphil
   start: 2022-04-11
@@ -246,7 +248,7 @@
   level: partiii
   start: 2019-10-01
   end: 2020-06-01
-  email: appetrosyan@icloud.com
+  email: a-p-petrosyan@yandex.ru
 - name: Ayngaran Thavanesan
   level: partiii
   start: 2019-10-01
