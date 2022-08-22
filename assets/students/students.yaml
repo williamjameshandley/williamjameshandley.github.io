@@ -210,6 +210,9 @@
   start: 2016-10-01
   end: 2017-06-01
   email: danielmanela@gmail.com
+  original_image: images/originals/daniel_manela.png
+  links:
+  - <a href="https://csml.stats.ox.ac.uk/">Department webpage</a>
 - name: Fruzsina Agocs
   level: partiii
   start: 2016-10-01
@@ -382,6 +385,9 @@
   level: summer
   start: 2022-06-27
   email: ab2552@cam.ac.uk
+  original_image: images/originals/artyom_baryshnikov.png
+  links:
+  - <a href="https://www.linkedin.com/in/artem-baryshnikov-4b31a6189">linkedin</a>
 - name: Beichen Xu
   level: summer
   start: 2022-06-27
