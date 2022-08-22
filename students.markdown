@@ -107,7 +107,7 @@ permalink: /students/
   <tr>
     <td>Thomas Mcaloone<ul><li>PhD student: Jun 2020 to Sep 2021 (co-supervised by <a href="https://www.research.manchester.ac.uk/portal/keith.grainge.html">Keith Grainge</a>, <a href="https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php">Malak Olamaie</a>)</li></ul></td>
     <td style="width:30%">
-      <img src="/assets/images/user.png" />
+      <img src="/assets/students/images/originals/thomas_mcaloone.jpg" />
     </td>
   </tr>
   <tr>
