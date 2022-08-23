@@ -1,296 +1,327 @@
-- name: Kamran Javid
-  level: postdoc
-  start: 2018-10-01
-  end: 2019-10-01
-  email: linkedin
+Kamran Javid:
+  postdoc:
+    start: 2018-10-01
+    end: 2019-10-01
+  phd:
+    start: 2017-10-01
+    end: 2018-09-30
   original_image: images/originals/kamran_javid.jpeg
   image: images/kamran_javid.jpg
   links:
   - <a href="https://scholar.google.com/citations?user=USKsovMAAAAJ">Google scholar</a>
   - <a href="https://www.linkedin.com/in/kamranjavid91">linkedin</a>
-- name: David Yallup
-  level: postdoc
-  start: 2021-01-10
+  destination:
+    2019-10-01: Arabesque (finance)
+David Yallup:
+  postdoc:
+    start: 2021-01-10
   email: david.yallup@gmail.com
   original_image: images/originals/david_yallup.jpg
   image: images/david_yallup.jpg
   links:
   - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
   - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
-- name: Ed Higson
-  level: phd
-  start: 2016-10-01
-  end: 2017-10-01
+Ed Higson:
+  phd:
+    start: 2016-10-01
+    end: 2017-10-01
+    co_supervisors:
+    - AL
+    - MH
   email: ejhigson@gmail.com
-  co_supervisors:
-  - AL
-  - MH
-- name: Lukas Hergt
-  level: phd
-  start: 2017-01-01
-  end: 2021-01-08
+  destination:
+    2017-10-01: Goldman Sachs (UK finance)
+    2020-05-01: DE Shaw (US finance)
+Lukas Hergt:
+  phd:
+    start: 2017-01-01
+    end: 2021-01-08
+    co_supervisors:
+    - AL
+    - MH
   email: lthergt@phas.ubc.ca
   original_image: images/originals/lukas_hergt.jpg
-  co_supervisors:
-  - AL
-  - MH
   links:
   - <a href="https://phas.ubc.ca/users/lukas-hergt">Webpage</a>
-- name: Fruzsina Agocs
-  level: phd
-  start: 2017-10-01
-  end: 2021-09-01
+  destination:
+    2021-01-08: 4-year cosmology fellowship in UBC
+Fruzsina Agocs:
+  phd:
+    start: 2017-10-01
+    end: 2021-09-01
+    co_supervisors:
+    - AL
+    - MH
+  partiii:
+    start: 2016-10-01
+    end: 2017-06-01
   email: fagocs@flatironinstitute.org
   original_image: images/originals/fruzsina_agocs.jpg
   image: images/fruzsina_agocs.jpg
-  co_supervisors:
-  - AL
-  - MH
   links:
   - <a href="https://fruzsinaagocs.github.io/">Webpage</a>
   - <a href="https://www.simonsfoundation.org/people/fruzsina-agocs/">Group webpage</a>
-- name: Kamran Javid
-  level: phd
-  start: 2017-10-01
-  end: 2018-09-30
-  email: linkedin
-- name: Will Barker
-  level: phd
-  start: 2017-10-01
-  end: 2021-08-25
+  destination:
+    2021-10-01: 3y fellowship CCA New York
+Will Barker:
+  phd:
+    start: 2017-10-01
+    end: 2021-08-25
+    co_supervisors:
+    - AL
+    - MH
   email: wb263@cam.ac.uk
   original_image: images/originals/will_barker.png
   image: images/will_barker.jpg
-  co_supervisors:
-  - AL
-  - MH
   links:
   - <a href="https://wevbarker.com">Webpage</a>
-- name: Dominic Anstey
-  level: phd
-  start: 2018-10-01
-  email: da401@cam.ac.uk
-  co_supervisors:
-  - EA
-- name: Harry Bevins
-  level: phd
-  start: 2019-10-01
+  destination:
+  - 2021-10-01: 3y Junior Research Fellowship (Girton, Cambridge)
+Dominic Anstey:
+  phd:
+    start: 2018-10-01
+    email: da401@cam.ac.uk
+    co_supervisors:
+    - EA
+Harry Bevins:
+  phd:
+    start: 2019-10-01
+    co_supervisors:
+    - EA
+    - AF
   email: htjb2@cam.ac.uk
   original_image: images/originals/harry_bevins.jpeg
-  co_supervisors:
-  - EA
-  - AF
   links:
   - <a href="https://htjb.github.io/">Webpage</a>
   - <a href="https://github.com/htjb">GitHub</a>
   - <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a>
   - <a href="https://publons.com/researcher/5239833/harry-bevins/">Publons</a>
-- name: Ian Roque
-  level: phd
-  start: 2019-10-01
+Ian Roque:
+  phd:
+    start: 2019-10-01
+    co_supervisors:
+    - NR
+  mphil:
+    start: 2018-10-01
+    end: 2019-09-15
+    co_supervisors:
+    - NR
   email: ilvr2@cam.ac.uk
   original_image: images/originals/ian_roque.png
-  co_supervisors:
-  - NR
   links:
   - <a href="https://www.astro.phy.cam.ac.uk/directory/ian-roque">Webpage</a>
-- name: Isidro Gomez Vargas
-  level: phd
-  start: 2020-03-16
-  end: 2020-12-04
+Isidro Gomez Vargas:
+  phd:
+    start: 2020-03-16
+    end: 2020-12-04
   email: igomez@icf.unam.mx
   original_image: images/originals/isidro_gomez_vargas.jpg
   links:
   - <a href="https://igomezv.github.io">Webpage</a>
-  - <a href="https://www.fis.unam.mx/directorio/1333/isidro-strong-gomez-strong-vargas">Department
-    webpage</a>
-- name: Thomas Mcaloone
-  level: phd
-  start: 2020-06-10
-  end: 2021-09-30
+  - <a href="https://www.fis.unam.mx/directorio/1333/isidro-strong-gomez-strong-vargas">Department webpage</a>
+  destination:
+  - 2021-11-01: Postdoc at UNAM (mexico)
+Thomas Mcaloone:
+  phd:
+    start: 2020-06-10
+    end: 2021-09-30
+    co_supervisors:
+    - KG
+    - MO
   email: thomas.mcaloone@polychord.co.uk
   original_image: images/originals/thomas_mcaloone.jpg
-  co_supervisors:
-  - KG
-  - MO
-- name: George Carter
-  level: phd
-  start: 2020-10-01
+  destination:
+    2021-10-01: Data scientist (PolyChord Ltd)
+George Carter:
+  phd:
+    start: 2020-10-01
+    co_supervisors:
+    - NR
+    - MA
   email: gtc30@cam.ac.uk
   original_image: originals/images/george_carter.jpg
   image: images/george_carter.jpg
-  co_supervisors:
-  - NR
-  - MA
-- name: Thomas Gessey-Jones
-  level: phd
-  start: 2020-10-01
+Thomas Gessey-Jones:
+  phd:
+    start: 2020-10-01
+    co_supervisors:
+    - EA
+    - AF
+  partiii:
+    start: 2019-10-01
+    end: 2020-06-01
+  email: tg400@cam.ac.uk
+  links:
+  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
+  - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
   email: tg400@cam.ac.uk
   original_image: images/originals/thomas_gessey-jones.jpg
-  co_supervisors:
-  - EA
-  - AF
-- name: Kilian Scheutwinkel
-  level: phd
-  start: 2020-12-01
+Kilian Scheutwinkel:
+  phd:
+    start: 2020-12-01
+    co_supervisors:
+    - EA
   email: khs40@cam.ac.uk
   original_image: images/originals/kilian_scheutwinkel.JPG
   image: images/kilian_scheutwinkel.jpg
-  co_supervisors:
-  - EA
   links:
   - <a href="https://www.c2d3.cam.ac.uk/directory/8681/mr-kilian-scheutwinkel">C2D3
     profile</a>
   - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
-- name: Adam Ormondroyd
-  level: phd
-  start: 2021-10-01
+Adam Ormondroyd:
+  phd:
+    start: 2021-10-01
+    co_supervisors:
+    - AL
+    - MH
   email: ano23@cam.ac.uk
   original_image: images/originals/adam_ormondroyd.jpg
-  co_supervisors:
-  - AL
-  - MH
   links:
   - <a href="https://www.linkedin.com/in/adam-ormondroyd/"> linkedin </a>
   - <a href="https://github.com/ormorod"> GitHub </a>
-- name: Ayngaran Thavanesan
-  level: phd
-  start: 2021-10-01
+Ayngaran Thavanesan:
+  phd:
+    start: 2021-10-01
+  partiii:
+    start: 2019-10-01
+    end: 2020-10-01
   email: at735@cam.ac.uk
-- name: Metha Prathaban
-  level: phd
-  start: 2022-10-01
+Metha Prathaban:
+  phd:
+    start: 2022-10-01
+  partiii:
+    start: 2020-10-01
+    end: 2021-06-01
   email: mrosep_10@hotmail.co.uk
   original_image: images/originals/metha_prathaban.png
-- name: Wei-Ning Deng
-  level: phd
-  start: 2022-10-01
+Wei-Ning Deng:
+  phd:
+    start: 2022-10-01
   email: weininden@gmail.com
-- name: Panagiotis Mavrogiannis
-  level: mphil
-  start: 2017-10-01
-  end: 2018-09-30
+Panagiotis Mavrogiannis:
+  mphil:
+    start: 2017-10-01
+    end: 2018-09-30
+    co_supervisors:
+    - AL
   email: pmavrogi@physics.auth.gr
   original_image: images/originals/panagiotis_mavrogiannis.jpg
-  co_supervisors:
-  - AL
-- name: Ian Roque
-  level: mphil
-  start: 2018-10-01
-  end: 2019-09-15
-  email: ilvr2@cam.ac.uk
-  co_supervisors:
-  - NR
-- name: Emma Shen
-  level: mphil
-  start: 2019-10-01
-  end: 2020-09-30
+  destination:
+    2018-10-01: PhD in Astrophysics, Thessaloniki, Greece
+Emma Shen:
+  mphil:
+    start: 2019-10-01
+    end: 2020-09-30
+    co_supervisors:
+    - EA
+    - AF
   email: yhs24@cam.ac.uk
   original_image: images/originals/emma_shen.jpg
-  co_supervisors:
-  - EA
-  - AF
-- name: Allahyar Sahibzada
-  level: mphil
-  start: 2021-10-01
+  destination:
+    2020-10-01: PhD in Radio astronomy, Cambridge 
+Allahyar Sahibzada:
+  mphil:
+    start: 2021-10-01
   email: smaa4@cam.ac.uk
   original_image: images/originals/allahyar_sahibzada.jpeg
-- name: Sam Leeney
-  level: mphil
-  start: 2022-04-11
+Sam Leeney:
+  mphil:
+    start: 2022-04-11
+    co_supervisors:
+    - EA
   email: sakl2@cam.ac.uk
   original_image: images/originals/sam_leeney.jpeg
-  co_supervisors:
-  - EA
   links:
   - <a href="https://github.com/samleeney">Webpage</a>
   - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
-- name: Daniel Manela
-  level: partiii
-  start: 2016-10-01
-  end: 2017-06-01
+Daniel Manela:
+  partiii:
+    start: 2016-10-01
+    end: 2017-06-01
   email: danielmanela@gmail.com
   original_image: images/originals/daniel_manela.png
   links:
   - <a href="https://csml.stats.ox.ac.uk/">Department webpage</a>
-- name: Fruzsina Agocs
-  level: partiii
-  start: 2016-10-01
-  end: 2017-06-01
-  email: fagocs@flatironinstitute.org
-- name: Robert Knighton
-  level: partiii
-  start: 2016-10-01
-  end: 2017-06-01
+  destination:
+    2019-10-01: Msc Computational stats & ML, UCL
+    2021-01-01: statistical/ML engineer at UCB Pharmaceuticals
+    2022-10-01: PhD in ML, Oxford 
+Robert Knighton:
+  partiii:
+    start: 2016-10-01
+    end: 2017-06-01
   email: robertiknighton@gmail.com
-- name: Stephen Pickman
-  level: partiii
-  start: 2016-10-01
-  end: 2017-06-01
+  destination:
+    2019-10-01: PhD in theoretical cosmology, ETH Zürich
+Stephen Pickman:
+  partiii:
+    start: 2016-10-01
+    end: 2017-06-01
   email: linkedin
-- name: Jessica Rigley
-  level: partiii
-  start: 2017-10-01
-  end: 2018-06-01
+  destination:
+    2017-10-01: Software developer at DarkTrace
+Jessica Rigley:
+  partiii:
+    start: 2017-10-01
+    end: 2018-06-01
   email: jkr40@cam.ac.uk
   original_image: images/originals/jessica_rigley.jpeg
   links:
   - <a href="https://jessicarigley.com/">Website</a>
-- name: Ward Haddadin
-  level: partiii
-  start: 2017-10-01
-  end: 2018-06-01
-- name: Deaglan Bartlett
-  level: partiii
-  start: 2018-10-01
-  end: 2019-06-01
+  destination:
+    2019-10-01: PhD in astronomy, IoA
+Ward Haddadin:
+  partiii:
+    start: 2017-10-01
+    end: 2018-06-01
+  summer:
+    start: 2018-06-01
+    end: 2018-09-01
+  original_image: images/originals/ward_haddadin.jpg
+  destination:
+    2018-10-01: PhD in Particle physics theory, DAMTP
+Deaglan Bartlett:
+  partiii:
+    start: 2018-10-01
+    end: 2019-06-01
   email: deaglan.bartlett@physics.ox.ac.uk
   original_image: images/originals/deaglan_bartlett.JPG
   image: images/deaglan_bartlett.jpg
   links:
   - <a href="https://www.physics.ox.ac.uk/our-people/bartlett">Webpage</a>
   - <a href="https://arxiv.org/a/bartlett_d_1">arXiv</a>
-- name: Jamie Bamber
-  level: partiii
-  start: 2018-10-01
-  end: 2019-06-01
+  destination:
+    2019-10-01: PhD in Astrophysics, Oxford
+Jamie Bamber:
+  partiii:
+    start: 2018-10-01
+    end: 2019-06-01
   email: james.bamber@univ.ox.ac.uk
   original_image: images/originals/jamie_bamber.JPG
   image: images/jamie_bamber.jpg
-- name: Aleksandr Petrosyan
-  level: partiii
-  start: 2019-10-01
-  end: 2020-06-01
+  destination:
+    2019-10-01: PhD in Astrophysics, Oxford
+Aleksandr Petrosyan:
+  partiii:
+    start: 2019-10-01
+    end: 2020-06-01
   email: a-p-petrosyan@yandex.ru
-- name: Ayngaran Thavanesan
-  level: partiii
-  start: 2019-10-01
-  end: 2020-10-01
-  email: at735@cam.ac.uk
-- name: Thomas Gessey-Jones
-  level: partiii
-  start: 2019-10-01
-  end: 2020-06-01
-  email: tg400@cam.ac.uk
-  links:
-  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
-  - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
-- name: Metha Prathaban
-  level: partiii
-  start: 2020-10-01
-  end: 2021-06-01
-  email: mrosep_10@hotmail.co.uk
-- name: Yi Jer Loh
-  level: partiii
-  start: 2020-10-01
-  end: 2021-06-01
+  destination:
+    2020-10-01: Lead cryptography engineer, Armenia
+    2022-10-01: PhD in Physics, Madrid
+Yi Jer Loh:
+  partiii:
+    start: 2020-10-01
+    end: 2021-06-01
   email: loh.yijer@live.com
   original_image: images/originals/yi_jer_loh.jpg
   image: images/yi_jer_loh.jpg
-- name: Carola Zanoletti
-  level: partiii
-  start: 2021-10-01
-  end: 2022-06-01
+  destination:
+    2021-10-01: Data Scientist at Spotify
+Carola Zanoletti:
+  partiii:
+    start: 2021-10-01
+    end: 2022-06-01
   email: cmz22@cam.ac.uk
   original_image: images/originals/carola_zanoletti.jpg
   links:
@@ -298,96 +329,107 @@
   - <a href="https://www.mas.ncl.ac.uk/danielle.leonard/">PhD supervisor</a>
   - <a href="https://research.ncl.ac.uk/phdstudentships/robinsoncosmology/#Leonard">PhD
     project</a>
-- name: Oliver Normand
-  level: partiii
-  start: 2021-10-01
-  end: 2022-06-01
+  destination:
+    2022-10-01: PhD at Nottingham
+Oliver Normand:
+  partiii:
+    start: 2021-10-01
+    end: 2022-06-01
   email: oliver@normand.uk
   original_image: images/originals/oliver_normand.jpg
   image: images/oliver_normand.jpg
-- name: Xy Wang
-  level: partiii
-  start: 2021-10-01
-  end: 2022-06-01
+  destination:
+    2022-10-01: Management consultancy
+Xy Wang:
+  partiii:
+    start: 2021-10-01
+    end: 2022-06-01
   email: yw491@cam.ac.uk
   original_image: images/originals/xy_wang.jpg
-  links:
-  - PhD in germany
-- name: Yoann Launay
-  level: partiii
-  start: 2021-10-01
-  end: 2022-06-01
+  destination:
+    2022-10-01: PhD in Quantum Computing, Germany
+Yoann Launay:
+  partiii:
+    start: 2021-10-01
+    end: 2022-06-01
   email: yl844@cam.ac.uk
   original_image: images/originals/yoann_launay.jpg
   image: images/yoann_launay.jpg
-  links:
-  - Nantes
-- name: Elizabeth Guest
-  level: summer
-  start: 2018-06-01
-  end: 2018-09-01
+  destination:
+    2022-10-01: PhD in Cosmology, DAMTP
+Elizabeth Guest:
+  summer:
+    start: 2018-06-01
+    end: 2018-09-01
   email: elizabethrguest@gmail.com
   original_image: images/originals/elizabeth_guest.jpg
-  links:
-  - PhD at UCL
-- name: Shu-Fan Chen
-  level: summer
-  start: 2018-06-01
-  end: 2018-09-01
+  destination:
+    2019-10-01: MSc in Theoretical Chemistry, Cambridge
+    2022-10-01: PhD in exoplanet astmospheres, UCL
+Shu-Fan Chen:
+  summer:
+    start: 2018-06-01
+    end: 2018-09-01
   email: shufan_chen@g.harvard.edu
   original_image: images/originals/shu-fan_chen.jpeg
-- name: Ward Haddadin
-  level: summer
-  start: 2018-06-01
-  end: 2018-09-01
-  original_image: images/originals/ward_haddadin.jpg
-- name: Denis Werth
-  level: summer
-  start: 2019-06-01
-  end: 2019-09-01
+  destination:
+    2019-10-01: PhD in Cosmology, Harvard
+Denis Werth:
+  summer:
+    start: 2019-06-01
+    end: 2019-09-01
   email: denis.werth@ens-paris-saclay.fr
   original_image: images/originals/denis_werth.jpg
-  links:
-  - Sorbonne, IAP
-- name: Liam Lau
-  level: summer
-  start: 2019-06-01
-  end: 2019-09-01
+  destination:
+    2019-10-01: Masters in Sorbonne, Paris
+    2021-10-01: PhD in Astrophysics, Paris (IAP & Sorbonne)
+Liam L.H. Lau:
+  summer:
+    start: 2019-06-01
+    end: 2019-09-01
   email: liam.lh.lau@physics.rutgers.edu
   original_image: images/originals/liam_lau.jpg
-- name: Maxime Jabarian
-  level: summer
-  start: 2019-06-01
-  end: 2019-09-01
+  destination:
+    2019-10-01: PhD in Physics, Rutgers (US)
+Maxime Jabarian:
+  summer:
+    start: 2019-06-01
+    end: 2019-09-01
   email: maximejabarian@gmail.com
   original_image: images/originals/maxime_jabarian.jpeg
   links:
   - <a href="https://www.linkedin.com/in/maxime-jabarian/">linkedin</a>
   - <a href="https://www.researchgate.net/profile/Maxime-Jabarian-2">ResearchGate</a>
-- name: Mattia Varrone
-  level: summer
-  start: 2021-06-21
-  end: 2021-09-30
+  destination:
+    2022-01-01: AI/Cybersecurity startup, Paris
+Mattia Varrone:
+  summer:
+    start: 2021-06-21
+    end: 2021-09-30
   email: mgv29@cam.ac.uk
   original_image: images/originals/mattia_varrone.jpg
-- name: Zak Shumaylov
-  level: summer
-  start: 2021-06-21
-  end: 2021-09-30
+Zak Shumaylov:
+  summer:
+    start: 2021-06-21
+    end: 2021-09-30
   email: zakshum@gmail.com
   original_image: images/originals/zak_shumaylov.jpeg
-- name: Mary Letey
-  level: summer
-  start: 2022-06-24
+  destination:
+    2022-10-01: PhD in machine learning, DAMTP
+Mary Letey:
+  summer:
+    start: 2022-06-24
   email: mil26@cam.ac.uk
-- name: Artyom Baryshnikov
-  level: summer
-  start: 2022-06-27
+  destination:
+    2022-10-01: Msc in Physics, Perimeter Institute
+Artyom Baryshnikov:
+  summer:
+    start: 2022-06-27
   email: ab2552@cam.ac.uk
   original_image: images/originals/artyom_baryshnikov.png
   links:
   - <a href="https://www.linkedin.com/in/artem-baryshnikov-4b31a6189">linkedin</a>
-- name: Beichen Xu
-  level: summer
-  start: 2022-06-27
+Beichen Xu:
+  summer:
+    start: 2022-06-27
   email: BXX002@student.bham.ac.uk

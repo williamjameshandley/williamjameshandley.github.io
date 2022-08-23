@@ -13,6 +13,7 @@ class Student(object):
         self.image = kwargs.pop('image', None)
         self.co_supervisors = kwargs.pop('co_supervisors', None)
         self.links = kwargs.pop('links', None)
+        self.destination =  kwargs.pop('destination', None) 
 
     def __repr__(self):
         string = self.name
