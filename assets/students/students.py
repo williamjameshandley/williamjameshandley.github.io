@@ -2,55 +2,152 @@ import datetime
 import yaml
 import os
 
-class Student(object):
-    def __init__(self, *args, **kwargs):
-        self.name = kwargs.pop('name')
-        self.level = kwargs.pop('level')
+class Supervisor(object):
+    def __init__(self, name, url=None):
+        self.name = name
+        self.url = url
+
+    def __str__(self):
+        if self.url is None:
+            return self.name
+        return '<a href="%s">%s</a>' % (self.url, self.name)
+
+supervisors = [
+    Supervisor('Anthony Lasenby', "https://www.phy.cam.ac.uk/directory/lasenbya"),
+    Supervisor('Mike Hobson', "https://www.phy.cam.ac.uk/directory/hobsonm"),
+    Supervisor('Eloy de Lera Acedo', "https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo"),
+    Supervisor('Anastasia Fialkov',"https://www.ast.cam.ac.uk/people/Anastasia.Fialkov"),
+    Supervisor('Nima Razavi-Ghods', "https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"),
+    Supervisor('Mark Ashdown', "https://www.phy.cam.ac.uk/staff/dr-mark-ashdown"),
+    Supervisor('Keith Grainge', "https://www.research.manchester.ac.uk/portal/keith.grainge.html"),
+    Supervisor('Malak Olamaie', "https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php"),
+]
+
+supervisors = {s.name:s for s in supervisors}
+
+
+class Level(object):
+    def __init__(self, **kwargs):
         self.start = kwargs.pop('start')
         self.end = kwargs.pop('end', None)
+        self.supervisors = [supervisors[s] for s in kwargs.pop('supervisors', [])]
+
+    def __lt__(self, other):
+        return self.seniority < other.seniority
+
+    def to_dict(self):
+        d = self.__dict__.copy()
+        if not d['supervisors']:
+            d.pop('supervisors')
+        else:
+            d['supervisors'] = [s.name for s in d['supervisors']]
+        if d['end'] is None:
+            d.pop('end')
+        return d
+
+    def __str__(self):
+        return self.string
+
+
+class PostDoc(Level):
+    key = 'postdoc'
+    seniority = 0
+    string = 'Post-Doc'
+
+class PhD(Level):
+    key = 'phd'
+    seniority = 1
+    string = 'PhD student'
+
+class MPhil(Level):
+    key = 'mphil'
+    seniority = 2
+    string = 'MPhil student'
+
+class PartIII(Level):
+    key = 'partiii'
+    seniority = 3
+    string = 'Part III student' 
+
+class Summer(Level):
+    key = 'summer'
+    seniority = 4
+    string = 'Summer student'
+
+
+levels = {s.key:s for s in [PostDoc, PhD, MPhil, PartIII, Summer]}
+
+
+
+class Student(object):
+    def __init__(self, name, **kwargs):
+        self.levels = [levels[level](**kwargs.pop(level)) for level in levels if level in kwargs]
+        self.name = name
         self.email = kwargs.pop('email', None)
         self.original_image = kwargs.pop('original_image', None)
         self.image = kwargs.pop('image', None)
-        self.co_supervisors = kwargs.pop('co_supervisors', None)
         self.links = kwargs.pop('links', None)
         self.destination =  kwargs.pop('destination', None) 
 
+    def to_dict(self):
+        d = self.__dict__.copy()
+        d.pop('name')
+        result = {}
+        for level in sorted(d.pop('levels')):
+            result[level.key] = level.to_dict()
+
+        result.update({k: v for k, v in d.items() if v is not None})
+        return result
+
+    @property
+    def start(self):
+        return min([l.start for l in self.levels])
+
+    def end(self):
+        ends = [l.end for l in self.levels]
+        if any([end==None for end in ends]):
+            return None
+        else:
+            return max(ends)
+
+    @property
+    def seniority(self):
+        return min(self.levels).seniority
+
     def __repr__(self):
-        string = self.name
-        string += ' (%s)' % self.level
-        if self.email is not None:
-            string += ' <%s>' % self.email
-        string += ': %s --' % self.start
-        if self.end is not None:
-            string += ' %s' % self.end
-        return string
+        return self.name
 
-seniority = {'postdoc': 0, 'phd': 1, 'mphil': 2, 'partiii': 3, 'summer':4}
+    def __lt__(self, other):
+        if self.seniority < other.seniority:
+            return True
+        elif self.seniority > other.seniority:
+            return False
+        else:
+            return min(self.levels).start > min(other.levels).start
 
-levels = {'postdoc': 'Post-Doc',
-          'phd': 'PhD student',
-          'mphil': 'MPhil student',
-          'partiii': 'Part III student',
-          'summer': 'Summer student'}
+    def joint_papers(self):
+        import arxiv
+        arr = self.name.split(' ')
+        surname = arr[-1]
+        initial = arr[0][0]
 
-co_supervisors = {'AL': '<a href="https://www.phy.cam.ac.uk/directory/lasenbya">Anthony Lasenby</a>',
-                  'MH': '<a href="https://www.phy.cam.ac.uk/directory/hobsonm">Mike Hobson</a>',
-                  'EA': '<a href="https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo">Eloy de Lera Acedo</a>',
-                  'AF': '<a href="https://www.ast.cam.ac.uk/people/Anastasia.Fialkov">Anastasia Fialkov</a>',
-                  'NR': '<a href="https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"> Nima Razavi-Ghods</a>',
-                  'MA': '<a href="https://www.phy.cam.ac.uk/staff/dr-mark-ashdown">Mark Ashdown</a>',
-                  'KG': '<a href="https://www.research.manchester.ac.uk/portal/keith.grainge.html">Keith Grainge</a>',
-                  'MO': '<a href="https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php">Malak Olamaie</a>',
-                  }
+        query = 'au:Handley_W AND au:%s_%s' % (surname, initial)
+        query = query.replace('-','_')
+        search = arxiv.Search(query=query)
+        npapers = len(list(search.results()))
+
+        if npapers>0:
+            url = r'https://arxiv.org/search/?query=handley%%2C+w%%3B+%s%%2C%s&searchtype=author' % (surname, initial)
+            return '<a href="%s">Shared research papers (%i)</a>' % (url, npapers)
 
 yaml_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.yaml')
+#yaml_file = 'students.yaml'
 
 with open(yaml_file) as f:
-    students = [Student(**kwargs) for kwargs in yaml.safe_load(f)]
+    students = [Student(name, **kwargs) for name, kwargs in yaml.safe_load(f).items()]
 
-students = sorted(students, key=lambda s: (seniority[s.level], s.start, s.name))
+students = sorted(students)
 
 with open(yaml_file, 'w') as f:
-    yaml.dump([{k: v for k, v in s.__dict__.items() if v is not None}
-               for s in students], 
+    yaml.dump({s.name:s.to_dict() for s in students}, 
                f, default_flow_style=False, sort_keys=False)
