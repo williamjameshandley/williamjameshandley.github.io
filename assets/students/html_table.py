@@ -13,15 +13,27 @@ html_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.h
 css = """
 .grid{
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
+  gap: 1rem;
 }
 
-@media screen and (max-width: 992px){
+.grid-item img {
+    border-radius: 20%;
+}
+
+@media screen and (max-width: 800px){
+   .grid{
+      grid-template-colums: repeat(1, 1fr);
+      grid-template-columns: 100%;
+   }
+   .grid-item img {
+       width: 240px;
+   }
+}
+
+@media screen and (min-width: 800px){
    .grid{
       grid-template-colums: repeat(2, 1fr);
+      grid-template-columns: 30% 70%;
    }
 }
 """
@@ -50,7 +62,7 @@ with open(html_file, 'w') as f:
                                 src = os.path.join('/assets/students/', student.original_image)
                             else:
                                 src = "/assets/images/user.png"
-                            doc.stag('img', src=src, style="border-radius: 20%")
+                            doc.stag('img', src=src)
 
                         with doc.tag('div', klass="grid-item"):
                             name = student.name
