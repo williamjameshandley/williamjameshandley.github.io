@@ -66,7 +66,7 @@ with open(html_file, 'w') as f:
                                                         doc.asis(l)
 
                                         if student.destination:
-                                            doc.line('li', 'After %s:' % levels[level].string.replace(' student', ''))
+                                            doc.line('li', 'Subsequent career:')
                                             with doc.tag('ul'):
                                                 for date, loc in student.destination.items():
                                                     with doc.tag('li'):
