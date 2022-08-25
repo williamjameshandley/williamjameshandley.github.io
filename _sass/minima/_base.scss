@@ -284,10 +284,13 @@ table {
 }
 
 body {
-    background-image: url('/assets/images/astrostatistics_2.jpeg');
+    background-image: url('/assets/images/astrostatistics_169.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    @media screen and (min-width: 1000px) {
+        background-image: url('/assets/images/astrostatistics_916.jpeg');
+    }
 }
 
 .wrapper {
