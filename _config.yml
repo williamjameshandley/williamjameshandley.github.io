@@ -17,7 +17,11 @@ minima:
   social_links:
     #twitter: jekyllrb
     github:  williamjameshandley
-    #arxiv: handley_w_1
+    arxiv: handley_w_1
+    google-scholar: 9Ow4mn0AAAAJ
+    orcid: 0000-0002-5866-0445
+    ads: 0000-0002-5866-0445
+    talks: https://www.github.com/williamjameshandley/talks
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
