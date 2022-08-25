@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![Bayesian Machine Learning and Cosmology](/assets/images/will_handley.jpg){: style="width: 50%;float: right"}
+![Bayesian Machine Learning and Cosmology](/assets/images/will_handley.jpg){: style="width: 50%;float: right; border-radius:20%"}
 
 ## Quick links:
 

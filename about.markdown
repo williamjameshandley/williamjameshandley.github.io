@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![Will Handley](/assets/images/will_handley.jpg){: style="width: 50%; float: right"}
+![Will Handley](/assets/images/will_handley.jpg){: style="width: 50%; float: right; border-radius:20%"}
 
 Will Handley is a Royal Society University Research Fellow and Turing Fellow whose research centres around early universe cosmology and Bayesian machine learning.
 
