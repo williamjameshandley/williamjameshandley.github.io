@@ -14,20 +14,13 @@ css = """
 .grid{
   display: grid;
   gap: 1rem;
+  grid-template-colums: repeat(1, 1fr);
+  grid-template-columns: 100%;
 }
 
 .grid-item img {
-    border-radius: 20%;
-}
-
-@media screen and (max-width: 800px){
-   .grid{
-      grid-template-colums: repeat(1, 1fr);
-      grid-template-columns: 100%;
-   }
-   .grid-item img {
-       width: 240px;
-   }
+   border-radius: 20%;
+   width: 240px;
 }
 
 @media screen and (min-width: 800px){

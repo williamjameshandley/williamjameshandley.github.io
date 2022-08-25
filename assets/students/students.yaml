@@ -29,10 +29,6 @@ Metha Prathaban:
     end: 2021-06-01
   email: mrosep_10@hotmail.co.uk
   original_image: images/originals/metha_prathaban.png
-Wei-Ning Deng:
-  phd:
-    start: 2022-10-01
-  email: weininden@gmail.com
 Adam Ormondroyd:
   phd:
     start: 2021-10-01
@@ -44,13 +40,6 @@ Adam Ormondroyd:
   links:
   - <a href="https://www.linkedin.com/in/adam-ormondroyd/"> linkedin </a>
   - <a href="https://github.com/ormorod"> GitHub </a>
-Ayngaran Thavanesan:
-  phd:
-    start: 2021-10-01
-  partiii:
-    start: 2019-10-01
-    end: 2020-10-01
-  email: at735@cam.ac.uk
 Kilian Scheutwinkel:
   phd:
     start: 2020-12-01
@@ -141,6 +130,7 @@ Dominic Anstey:
     start: 2018-10-01
     supervisors:
     - Eloy de Lera Acedo
+  original_image: images/originals/dominic_anstey.jpg
 Fruzsina Agocs:
   phd:
     start: 2017-10-01

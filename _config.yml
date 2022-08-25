@@ -11,17 +11,19 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
+  skin: dark
 
   # generate social links in footer
   social_links:
     #twitter: jekyllrb
     github:  williamjameshandley
+    #arxiv: handley_w_1
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: will-handley
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -52,9 +54,6 @@ minima:
 
 # Build settings
 theme: minima
-
-minima:
-  skin: dark
 
 plugins:
  - jekyll-feed
