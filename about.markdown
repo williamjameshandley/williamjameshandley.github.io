@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
 ![Will Handley](/assets/images/will_handley.jpg){: style="width: 50%; float: right; border-radius:20%"}
