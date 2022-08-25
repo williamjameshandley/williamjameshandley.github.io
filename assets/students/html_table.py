@@ -23,7 +23,7 @@ css = """
    width: 240px;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 600px){
    .grid{
       grid-template-colums: repeat(2, 1fr);
       grid-template-columns: 30% 70%;
@@ -41,6 +41,7 @@ with open(html_file, 'w') as f:
         for level in levels:
             sdf = df[df.level==level].data.to_list()
             if len(sdf):
+
                 with doc.tag('h1'):
                     if i==0:
                         doc.text('%ss' % levels[level].string)
@@ -76,7 +77,8 @@ with open(html_file, 'w') as f:
                                                         text = ', '.join([str(cs) for cs in  l.supervisors])
                                                         doc.asis("co-supervised with %s" % text)
 
-                                    joint_papers = student.joint_papers()
+                                    #joint_papers = student.joint_papers()
+                                    joint_papers = None
                                     if joint_papers:
                                         with doc.tag('li'):
                                             doc.asis(joint_papers)
@@ -94,4 +96,5 @@ with open(html_file, 'w') as f:
                                             for date, loc in student.destination.items():
                                                 with doc.tag('li'):
                                                     doc.asis("%s: %s" % (date.strftime("%b %Y"), loc))
+
     f.write(indent(doc.getvalue()))
