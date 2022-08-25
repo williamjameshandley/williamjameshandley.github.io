@@ -2,10 +2,36 @@
 layout: home
 ---
 
-![Bayesian Machine Learning and Cosmology](/assets/images/will_handley.jpg){: style="width: 50%;float: right; border-radius:20%"}
+<style>
+.grid{
+  display: grid;
+  gap: 1rem;
+  grid-template-colums: repeat(1, 1fr);
+  grid-template-columns: 100%;
+}
 
-## Quick links:
+.grid-item img {
+   border-radius: 20%;
+   width: 100%;
+}
 
+@media screen and (min-width: 600px){
+   .grid{
+      grid-template-colums: repeat(2, 1fr);
+      grid-template-columns: 50% 50%;
+   }
+}
+</style>
+               
+
+
+<div class="grid">
+<div class="grid-item">
+<p>Will Handley is a Royal Society University Research Fellow and Turing Fellow whose research centres around early universe cosmology and Bayesian machine learning.</p>
+
+
+<p>
+Quick links:
 <ul class="fa-ul">
 <li><a href="/students" title="Students & postdocs"><span class="fa-li"><i class="fa fa-users"></i></span> Students & postdocs </a></li>
 <li><a href="https://github.com/williamjameshandley/CV/raw/master/CV.pdf" title="CV"><span class="fa-li"><i class="fa fa-file"></i></span> CV </a></li>
@@ -15,4 +41,13 @@ layout: home
 <li><a href="/about" title="About me"><span class="fa-li"><i class="fa fa-user"></i></span> About me </a></li>
 <li><a href="mailto:wh260@cam.ac.uk" title="email me"><span class="fa-li"><i class="fa fa-envelope"></i></span> Email </a></li>
 </ul>
+</p>
+</div>
 
+<div class="grid-item">
+<a href="/about">
+<img src="/assets/images/will_handley.jpg" style="border-radius: 20%">
+</a>
+</div>
+
+</div>
