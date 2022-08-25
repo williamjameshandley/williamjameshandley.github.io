@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![Bayesian Machine Learning and Cosmology](/assets/images/Planck-Sphere-Combined.png){: style="width: 50%;float: right"}
+![Bayesian Machine Learning and Cosmology](/assets/images/will_handley.jpg){: style="width: 50%;float: right"}
 
 ## Quick links:
 

@@ -21,7 +21,7 @@ minima:
     google-scholar: 9Ow4mn0AAAAJ
     orcid: 0000-0002-5866-0445
     ads: 0000-0002-5866-0445
-    talks: https://www.github.com/williamjameshandley/talks
+    talks: true
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll

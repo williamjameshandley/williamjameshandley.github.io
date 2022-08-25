@@ -22,5 +22,5 @@
   {%- if social.google-scholar -%}<li><a rel="me" href="https://scholar.google.com/citations?user={{ social.google-scholar | cgi_escape | escape }}"  target="_blank" title="{{ social.google-scholar | escape }}"><i class="ai ai-google-scholar"></i></a></li>{%- endif -%}
   {%- if social.orcid -%}<li><a rel="me" href="https://orcid.org/{{ social.orcid | cgi_escape | escape }}"  target="_blank" title="{{ social.orcid | escape }}"><i class="fa-brands fa-orcid"></i></a></li>{%- endif -%}
   {%- if social.ads -%}<li><a rel="me" href="https://ui.adsabs.harvard.edu/search/q=orcid%3A{{ social.ads | cgi_escape | escape }}"  target="_blank" title="{{ social.ads | escape }}"><i class="ai ai-ads"></i></a></li>{%- endif -%}
-  {%- if social.talks -%}<li><a rel="me" href="{{ social.talks | cgi_escape | escape }}"  target="_blank" title="{{ Talks on github }}"><i class="fa fa-person-chalkboard"></i></a></li>{%- endif -%}
+  {%- if social.talks -%}<li><a rel="me" href="https://www.github.com/williamjameshandley/talks"  target="_blank" title="{{ Talks on github }}"><i class="fa fa-person-chalkboard"></i></a></li>{%- endif -%}
 </ul>
