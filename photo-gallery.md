@@ -54,6 +54,9 @@ images:
   - image_path: /assets/images/midjourney/Dynamical_dark_energy_in_light_of_the_latest_obser.png
     title: Dynamical dark energy in light of the latest observations
     link: https://arxiv.org/abs/1701.08165
+  - image_path: /assets/images/midjourney/Quantifying_Suspiciousness_Within_Correlated_Data.png 
+    title: Quantifying Suspiciousness Within Correlated Data Sets
+    link: https://arxiv.org/abs/1910.07820
 
 ---
 
