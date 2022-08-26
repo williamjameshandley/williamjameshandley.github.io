@@ -51,11 +51,3 @@ Quick links:
 </div>
 
 </div>
-
-
-Excerpt text
-
-<!--more-->
-
-Body text
-
