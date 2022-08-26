@@ -79,7 +79,6 @@ with open(html_file, 'w') as f:
                                                             doc.asis("co-supervised with %s" % text)
 
                                         joint_papers = student.joint_papers()
-                                        joint_papers = None
                                         if joint_papers:
                                             with doc.tag('li'):
                                                 doc.asis(joint_papers)
