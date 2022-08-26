@@ -20,7 +20,7 @@ css = """
 
 .grid-item img {
    border-radius: 20%;
-   width: 240px;
+   width: 200px;
 }
 
 @media screen and (min-width: 600px){
@@ -42,59 +42,60 @@ with open(html_file, 'w') as f:
             sdf = df[df.level==level].data.to_list()
             if len(sdf):
 
-                with doc.tag('h1'):
-                    if i==0:
-                        doc.text('%ss' % levels[level].string)
-                    else:
-                        doc.text('Past %ss' % levels[level].string)
-                with doc.tag('div', klass="grid"):
-                    for student in sdf:
-                        with doc.tag('div', klass="grid-item"):
-                            if student.image:
-                                src = os.path.join('/assets/students/', student.image)
-                            elif student.original_image:
-                                src = os.path.join('/assets/students/', student.original_image)
-                            else:
-                                src = "/assets/images/user.png"
-                            doc.stag('img', src=src)
+                with doc.tag('div', klass='wrapper', style='margin-top:30pt'):
+                    with doc.tag('h1'):
+                        if i==0:
+                            doc.text('%ss' % levels[level].string)
+                        else:
+                            doc.text('Past %ss' % levels[level].string)
+                    with doc.tag('div', klass="grid"):
+                        for student in sdf:
+                            with doc.tag('div', klass="grid-item"):
+                                if student.image:
+                                    src = os.path.join('/assets/students/', student.image)
+                                elif student.original_image:
+                                    src = os.path.join('/assets/students/', student.original_image)
+                                else:
+                                    src = "/assets/images/user.png"
+                                doc.stag('img', src=src)
 
-                        with doc.tag('div', klass="grid-item"):
-                            name = student.name
-                            with doc.tag('p'):
-                                with doc.tag('font', size="+2"):
-                                    doc.text(name)
-                            with doc.tag('p'):
-                                with doc.tag('ul'):
-                                    for l in student.levels:
-                                        with doc.tag('li'):
-                                            doc.text('%s from %s' % (l, l.start.strftime("%b %Y")))
-                                            if l.end:
-                                                doc.text(' to %s' % l.end.strftime("%b %Y"))
-                                            if l.supervisors:
-                                                str(l.supervisors[0])
-                                                with doc.tag('ul'):
+                            with doc.tag('div', klass="grid-item"):
+                                name = student.name
+                                with doc.tag('p'):
+                                    with doc.tag('font', size="+2"):
+                                        doc.text(name)
+                                with doc.tag('p'):
+                                    with doc.tag('ul'):
+                                        for l in student.levels:
+                                            with doc.tag('li'):
+                                                doc.text('%s from %s' % (l, l.start.strftime("%b %Y")))
+                                                if l.end:
+                                                    doc.text(' to %s' % l.end.strftime("%b %Y"))
+                                                if l.supervisors:
+                                                    str(l.supervisors[0])
+                                                    with doc.tag('ul'):
+                                                        with doc.tag('li'):
+                                                            text = ', '.join([str(cs) for cs in  l.supervisors])
+                                                            doc.asis("co-supervised with %s" % text)
+
+                                        joint_papers = student.joint_papers()
+                                        joint_papers = None
+                                        if joint_papers:
+                                            with doc.tag('li'):
+                                                doc.asis(joint_papers)
+
+                                        if student.links:
+                                            doc.line('li', 'Links:')
+                                            with doc.tag('ul'):
+                                                for l in student.links:
                                                     with doc.tag('li'):
-                                                        text = ', '.join([str(cs) for cs in  l.supervisors])
-                                                        doc.asis("co-supervised with %s" % text)
+                                                        doc.asis(l)
 
-                                    #joint_papers = student.joint_papers()
-                                    joint_papers = None
-                                    if joint_papers:
-                                        with doc.tag('li'):
-                                            doc.asis(joint_papers)
-
-                                    if student.links:
-                                        doc.line('li', 'Links:')
-                                        with doc.tag('ul'):
-                                            for l in student.links:
-                                                with doc.tag('li'):
-                                                    doc.asis(l)
-
-                                    if student.destination:
-                                        doc.line('li', 'Subsequent career:')
-                                        with doc.tag('ul'):
-                                            for date, loc in student.destination.items():
-                                                with doc.tag('li'):
-                                                    doc.asis("%s: %s" % (date.strftime("%b %Y"), loc))
+                                        if student.destination:
+                                            doc.line('li', 'Subsequent career:')
+                                            with doc.tag('ul'):
+                                                for date, loc in student.destination.items():
+                                                    with doc.tag('li'):
+                                                        doc.asis("%s: %s" % (date.strftime("%b %Y"), loc))
 
     f.write(indent(doc.getvalue()))
