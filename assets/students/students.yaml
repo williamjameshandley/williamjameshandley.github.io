@@ -123,6 +123,7 @@ Ian Roque:
     - Nima Razavi-Ghods
   email: ilvr2@cam.ac.uk
   original_image: images/originals/ian_roque.png
+  image: images/ian_roque.jpg
   links:
   - <a href="https://www.astro.phy.cam.ac.uk/directory/ian-roque">Webpage</a>
 Dominic Anstey:
@@ -186,6 +187,7 @@ Ed Higson:
     - Mike Hobson
   email: ejhigson@gmail.com
   original_image: images/originals/ed_higson.jpg
+  image: images/ed_higson.jpg
   links:
   - <a href="https://www.linkedin.com/in/ejhigson">linkedin</a>
   destination:
@@ -198,6 +200,7 @@ Sam Leeney:
     - Eloy de Lera Acedo
   email: sakl2@cam.ac.uk
   original_image: images/originals/sam_leeney.jpeg
+  image: images/sam_leeney.jpg
   links:
   - <a href="https://github.com/samleeney">Webpage</a>
   - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
@@ -206,6 +209,7 @@ Allahyar Sahibzada:
     start: 2021-10-01
   email: smaa4@cam.ac.uk
   original_image: images/originals/allahyar_sahibzada.jpeg
+  image: images/allahyar_sahibzada.jpg
 Emma Shen:
   mphil:
     start: 2019-10-01
@@ -215,6 +219,7 @@ Emma Shen:
     - Anastasia Fialkov
   email: yhs24@cam.ac.uk
   original_image: images/originals/emma_shen.jpg
+  image: images/emma_shen.jpg
   destination:
     2020-10-01: PhD in Radio astronomy, Cambridge
 Panagiotis Mavrogiannis:
@@ -225,6 +230,7 @@ Panagiotis Mavrogiannis:
     - Anthony Lasenby
   email: pmavrogi@physics.auth.gr
   original_image: images/originals/panagiotis_mavrogiannis.jpg
+  image: images/panagiotis_mavrogiannis.jpg
   destination:
     2018-10-01: PhD in Astrophysics, Thessaloniki, Greece
 Carola Zanoletti:
@@ -233,6 +239,7 @@ Carola Zanoletti:
     end: 2022-06-01
   email: cmz22@cam.ac.uk
   original_image: images/originals/carola_zanoletti.jpg
+  image: images/carola_zanoletti.jpg
   links:
   - <a href="https://blogs.ncl.ac.uk/cosmology/">Group webpage</a>
   - <a href="https://www.mas.ncl.ac.uk/danielle.leonard/">PhD supervisor</a>
@@ -322,6 +329,7 @@ Ward Haddadin:
     start: 2018-06-01
     end: 2018-09-01
   original_image: images/originals/ward_haddadin.jpg
+  image: images/ward_haddadin.jpg
   destination:
     2018-10-01: PhD in Particle physics theory, DAMTP
 Daniel Manela:
@@ -330,6 +338,7 @@ Daniel Manela:
     end: 2017-06-01
   email: danielmanela@gmail.com
   original_image: images/originals/daniel_manela.png
+  image: images/daniel_manela.jpg
   links:
   - <a href="https://csml.stats.ox.ac.uk/">Department webpage</a>
   destination:
@@ -342,6 +351,7 @@ Bob Knighton:
     end: 2017-06-01
   email: robertiknighton@gmail.com
   original_image: images/originals/bob_knighton.JPG
+  image: images/bob_knighton.jpg
   destination:
     2019-10-01: "PhD in theoretical cosmology, ETH Z\xFCrich"
 Stephen Pickman:
