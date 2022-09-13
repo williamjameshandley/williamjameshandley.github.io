@@ -399,6 +399,8 @@ Mary Letey:
   image: images/mary_letey.jpg
   destination:
     2022-10-01: Msc in Physics, Perimeter Institute
+  links:
+    - <a href="https://www.linkedin.com/in/maryletey">linkedin</a>
 Mattia Varrone:
   summer:
     start: 2021-06-21
