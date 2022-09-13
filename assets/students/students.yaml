@@ -386,6 +386,8 @@ Mary Letey:
   summer:
     start: 2022-06-24
   email: mil26@cam.ac.uk
+  original_image: images/originals/mary_letey.jpg
+  image: images/mary_letey.jpg
   destination:
     2022-10-01: Msc in Physics, Perimeter Institute
 Mattia Varrone:
