@@ -48,6 +48,14 @@ Adam Ormondroyd:
   links:
   - <a href="https://www.linkedin.com/in/adam-ormondroyd/"> linkedin </a>
   - <a href="https://github.com/ormorod"> GitHub </a>
+Ayngaran Thavanesan:
+  phd:
+    start: 2021-10-01
+    supervisors:
+    - David Stefanyszyn
+  email: at735@cam.ac.uk
+  original_image: images/originals/ayngaran_thavanesan.png
+  image: images/ayngaran_thavanesan.jpg
 Kilian Scheutwinkel:
   phd:
     start: 2020-12-01
