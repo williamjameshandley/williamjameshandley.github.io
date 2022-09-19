@@ -388,18 +388,25 @@ Stephen Pickman:
 Artyom Baryshnikov:
   summer:
     start: 2022-06-27
+    end: 2022-08-26
   email: ab2552@cam.ac.uk
   original_image: images/originals/artyom_baryshnikov.png
   image: images/artyom_baryshnikov.jpg
   links:
   - <a href="https://www.linkedin.com/in/artem-baryshnikov-4b31a6189">linkedin</a>
+  destination:
+    2022-10-01: MSc in Physics, Bristol
 Beichen Xu:
   summer:
     start: 2022-06-27
+    end: 2022-09-16
   email: BXX002@student.bham.ac.uk
+  destination:
+    2022-10-01: Physics in Birmingham
 Mary Letey:
   summer:
     start: 2022-06-24
+    end: 2022-08-22
   email: mil26@cam.ac.uk
   original_image: images/originals/mary_letey.jpg
   image: images/mary_letey.jpg
