@@ -13,7 +13,7 @@ plt.rcParams['ytick.color'] = grey
 plt.rcParams['ytick.color'] = grey
 
 
-students = [s for s in students if s.start < datetime.date.today()]
+students = [s for s in students if s.start <= datetime.date.today()]
 students = sorted(students, key=lambda s: (s.start, min([(l.start, l.seniority) for l in s.levels])[1]))
 
 colors = {'partiii': 'C1',
