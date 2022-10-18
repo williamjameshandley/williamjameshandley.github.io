@@ -42,6 +42,10 @@ Quick links:
 <li><a href="mailto:wh260@cam.ac.uk" title="email me"><span class="fa-li"><i class="fa fa-envelope"></i></span> Email </a></li>
 </ul>
 </p>
+
+<p>Will Handley is currently accepting applications for PhD students. </p>
+<p>To apply, please <a href="mailto:wh260@cam.ac.uk?subject=PhD expression of interest">get in touch via email</a>, and follow the instructions at <a href="https://www.astro.phy.cam.ac.uk/gradresearch/graduate-admission-procedures-for-october-2015-entry">this link</a> noting on the astrophysics form that you are interested in working with his group.</p>
+
 </div>
 
 <div class="grid-item">
