@@ -154,6 +154,8 @@ Dominic Anstey:
     - Eloy de Lera Acedo
   original_image: images/originals/dominic_anstey.jpg
   image: images/dominic_anstey.jpg
+  destination:
+    2022-10-01: Postdoc at Cambridge (UK)
 Fruzsina Agocs:
   phd:
     start: 2017-10-01
@@ -278,6 +280,12 @@ Carola Zanoletti:
     project</a>
   destination:
     2022-10-01: PhD at Nottingham
+Zixiao Hu:
+  partiii:
+    start: 2022-10-01
+  email: zh328@cam.ac.uk
+  original_image: images/originals/zixiao_hu.jpeg
+  image: images/zixiao_hu.jpg
 Oliver Normand:
   partiii:
     start: 2021-10-01
