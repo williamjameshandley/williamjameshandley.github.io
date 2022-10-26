@@ -319,6 +319,8 @@ Aleksandr Petrosyan:
     start: 2019-10-01
     end: 2020-06-01
   email: a-p-petrosyan@yandex.ru
+  original_image: images/originals/aleksandr_petrosyan.jpeg
+  image: images/aleksandr_petrosyan.jpg
   destination:
     2020-10-01: Lead cryptography engineer, Armenia
     2022-10-01: PhD in Physics, Madrid
@@ -392,6 +394,8 @@ Stephen Pickman:
     start: 2016-10-01
     end: 2017-06-01
   email: linkedin
+  original_image: images/originals/stephen_pickman.jpeg
+  image: images/stephen_pickman.jpg
   destination:
     2017-10-01: Software developer at DarkTrace
 Artyom Baryshnikov:
