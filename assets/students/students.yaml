@@ -292,6 +292,14 @@ Zixiao Hu:
   email: zh328@cam.ac.uk
   original_image: images/originals/zixiao_hu.jpeg
   image: images/zixiao_hu.jpg
+Cole Meldorf:
+  partiii:
+    start: 2022-10-01
+  email: cfm51@cam.ac.uk
+  original_image: images/originals/cole_meldorf.jpg
+  image: images/cole_meldorf.jpg
+  links:
+  - <a href="https://scholar.google.com/citations?user=Zqa8QOMAAAAJ&hl=en&oi=ao">Google scholar</a>
 Oliver Normand:
   partiii:
     start: 2021-10-01
