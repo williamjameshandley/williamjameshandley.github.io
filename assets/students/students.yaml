@@ -272,6 +272,27 @@ Panagiotis Mavrogiannis:
   image: images/panagiotis_mavrogiannis.jpg
   destination:
     2018-10-01: PhD in Astrophysics, Thessaloniki, Greece
+Zixiao Hu:
+  partiii:
+    start: 2022-10-01
+  email: zh328@cam.ac.uk
+  original_image: images/originals/zixiao_hu.jpeg
+  image: images/zixiao_hu.jpg
+Sankalan Bhattacharyya:
+  partiii:
+    start: 2022-10-01
+  email: sb2375@cam.ac.uk
+  original_image: images/originals/sankalan_bhattacharyya.jpg
+  image: images/sankalan_bhattacharyya.jpg
+Cole Meldorf:
+  partiii:
+    start: 2022-10-01
+  email: cfm51@cam.ac.uk
+  original_image: images/originals/cole_meldorf.jpg
+  image: images/cole_meldorf.jpg
+  links:
+  - <a href="https://scholar.google.com/citations?user=Zqa8QOMAAAAJ&hl=en&oi=ao">Google
+    scholar</a>
 Carola Zanoletti:
   partiii:
     start: 2021-10-01
@@ -286,20 +307,6 @@ Carola Zanoletti:
     project</a>
   destination:
     2022-10-01: PhD at Nottingham
-Zixiao Hu:
-  partiii:
-    start: 2022-10-01
-  email: zh328@cam.ac.uk
-  original_image: images/originals/zixiao_hu.jpeg
-  image: images/zixiao_hu.jpg
-Cole Meldorf:
-  partiii:
-    start: 2022-10-01
-  email: cfm51@cam.ac.uk
-  original_image: images/originals/cole_meldorf.jpg
-  image: images/cole_meldorf.jpg
-  links:
-  - <a href="https://scholar.google.com/citations?user=Zqa8QOMAAAAJ&hl=en&oi=ao">Google scholar</a>
 Oliver Normand:
   partiii:
     start: 2021-10-01
