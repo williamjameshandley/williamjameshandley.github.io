@@ -21,6 +21,12 @@ Kamran Javid:
   - <a href="https://www.linkedin.com/in/kamranjavid91">linkedin</a>
   destination:
     2019-10-01: Arabesque (finance)
+Sinah Legner:
+  phd:
+    start: 2022-10-01
+  email: sinah_legner@hotmail.com
+  original_image: images/originals/sinah_legner.jpg
+  image: images/sinah_legner.jpg
 Metha Prathaban:
   phd:
     start: 2022-10-01
@@ -154,6 +160,8 @@ Dominic Anstey:
     - Eloy de Lera Acedo
   original_image: images/originals/dominic_anstey.jpg
   image: images/dominic_anstey.jpg
+  destination:
+    2022-10-01: Postdoc at Cambridge (UK)
 Fruzsina Agocs:
   phd:
     start: 2017-10-01
@@ -264,6 +272,27 @@ Panagiotis Mavrogiannis:
   image: images/panagiotis_mavrogiannis.jpg
   destination:
     2018-10-01: PhD in Astrophysics, Thessaloniki, Greece
+Zixiao Hu:
+  partiii:
+    start: 2022-10-01
+  email: zh328@cam.ac.uk
+  original_image: images/originals/zixiao_hu.jpeg
+  image: images/zixiao_hu.jpg
+Sankalan Bhattacharyya:
+  partiii:
+    start: 2022-10-01
+  email: sb2375@cam.ac.uk
+  original_image: images/originals/sankalan_bhattacharyya.jpg
+  image: images/sankalan_bhattacharyya.jpg
+Cole Meldorf:
+  partiii:
+    start: 2022-10-01
+  email: cfm51@cam.ac.uk
+  original_image: images/originals/cole_meldorf.jpg
+  image: images/cole_meldorf.jpg
+  links:
+  - <a href="https://scholar.google.com/citations?user=Zqa8QOMAAAAJ&hl=en&oi=ao">Google
+    scholar</a>
 Carola Zanoletti:
   partiii:
     start: 2021-10-01
@@ -319,6 +348,8 @@ Aleksandr Petrosyan:
     start: 2019-10-01
     end: 2020-06-01
   email: a-p-petrosyan@yandex.ru
+  original_image: images/originals/aleksandr_petrosyan.jpeg
+  image: images/aleksandr_petrosyan.jpg
   destination:
     2020-10-01: Lead cryptography engineer, Armenia
     2022-10-01: PhD in Physics, Madrid
@@ -392,6 +423,8 @@ Stephen Pickman:
     start: 2016-10-01
     end: 2017-06-01
   email: linkedin
+  original_image: images/originals/stephen_pickman.jpeg
+  image: images/stephen_pickman.jpg
   destination:
     2017-10-01: Software developer at DarkTrace
 Artyom Baryshnikov:
