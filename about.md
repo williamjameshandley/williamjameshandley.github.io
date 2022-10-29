@@ -16,3 +16,7 @@ He works on developing novel Bayesian machine learning algorithms for high-dimen
 He leads the data analysis team for REACH, a team of cosmologists designing and operating a radio telescope to make an unambiguous detection of the global 21cm signal coming from the cosmic dawn.
 
 He is a convener of the GAMBIT cosmology working group, working with a community of cosmologists, particle physicists and statisticians who use terrestrial collider data in conjunction with astrophysical observations to constrain theories of dark matter, neutrinos and modified gravity.
+
+He currently gives the Part III Physics course "Relativistic Astrophysics and Cosmology", covering Einstein's gravity from the Big Bang to Black Holes in 24 lectures.
+
+![Will Handley](/assets/images/blackboard.png)
