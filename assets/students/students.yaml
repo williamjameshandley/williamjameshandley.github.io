@@ -215,17 +215,6 @@ Ed Higson:
   destination:
     2017-10-01: Goldman Sachs (UK finance)
     2020-05-01: DE Shaw (US finance)
-Sam Leeney:
-  mphil:
-    start: 2022-12-30
-    supervisors:
-    - Eloy de Lera Acedo
-  email: sakl2@cam.ac.uk
-  original_image: images/originals/sam_leeney.jpeg
-  image: images/sam_leeney.jpg
-  links:
-  - <a href="https://github.com/samleeney">Webpage</a>
-  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Danielle Dineen:
   mphil:
     start: 2022-10-01
@@ -235,6 +224,18 @@ Danielle Dineen:
   - <a href="https://www.linkedin.com/in/danielle-dineen-34887a120/">linkedin</a>
   - <a href="https://arxiv.org/search/?query=danielle+dineen&searchtype=all&source=header">arxiv
     papers</a>
+Sam Leeney:
+  mphil:
+    start: 2022-04-11
+    end: 2022-12-30
+    supervisors:
+    - Eloy de Lera Acedo
+  email: sakl2@cam.ac.uk
+  original_image: images/originals/sam_leeney.jpeg
+  image: images/sam_leeney.jpg
+  links:
+  - <a href="https://github.com/samleeney">Webpage</a>
+  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Allahyar Sahibzada:
   mphil:
     start: 2021-10-01
