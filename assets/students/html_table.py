@@ -31,6 +31,8 @@ css = """
 }
 """
 
+ignore = ["George Carter"]
+
 with open(html_file, 'w') as f:
     doc = Doc()
 
@@ -50,6 +52,8 @@ with open(html_file, 'w') as f:
                             doc.text('Past %ss' % levels[level].string)
                     with doc.tag('div', klass="grid"):
                         for student in sdf:
+                            if student.name in ignore:
+                                continue
                             with doc.tag('div', klass="grid-item"):
                                 if student.image:
                                     src = os.path.join('/assets/students/', student.image)
