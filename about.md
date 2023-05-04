@@ -3,9 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-![Will Handley](/assets/images/will_handley.jpg){: style="width: 50%; float: right; border-radius:20%"}
 
 Will Handley is a Royal Society University Research Fellow and Turing Fellow at the University of Cambridge whose research centres around early universe cosmology and Bayesian machine learning.
+
+![Will Handley](/assets/images/computer_1.jpeg){: style="width: 50%; float: right; border-radius:20%"}
 
 Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics has on the universe a split second after the Big Bang. His current research is focused on examining the theoretical and observational consequences of primordial curvature, searching for imprints in the cosmic microwave background of the shape of the universe at the beginning of time.
 
