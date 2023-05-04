@@ -14,6 +14,7 @@ Kamran Javid:
   phd:
     start: 2017-10-01
     end: 2018-09-30
+  email: kamranjavid3@gmail.com
   original_image: images/originals/kamran_javid.jpeg
   image: images/kamran_javid.jpg
   links:
@@ -24,7 +25,7 @@ Kamran Javid:
 Sinah Legner:
   phd:
     start: 2022-10-01
-  email: sinah_legner@hotmail.com
+  email: sl2091@cam.ac.uk
   original_image: images/originals/sinah_legner.jpg
   image: images/sinah_legner.jpg
 Metha Prathaban:
@@ -33,13 +34,13 @@ Metha Prathaban:
   partiii:
     start: 2020-10-01
     end: 2021-06-01
-  email: mrosep_10@hotmail.co.uk
+  email: myp23@cam.ac.uk
   original_image: images/originals/metha_prathaban.png
   image: images/metha_prathaban.jpg
 Wei-Ning Deng:
   phd:
     start: 2022-10-01
-  email: weininden@gmail.com
+  email: wnd22@cam.ac.uk
   original_image: images/originals/wei-ning_deng.jpg
   image: images/wei-ning_deng.jpg
 Adam Ormondroyd:
@@ -160,6 +161,7 @@ Dominic Anstey:
     end: 2022-09-30
     supervisors:
     - Eloy de Lera Acedo
+  email: da401@cam.ac.uk
   original_image: images/originals/dominic_anstey.jpg
   image: images/dominic_anstey.jpg
   destination:
@@ -203,7 +205,7 @@ Lukas Hergt:
     supervisors:
     - Anthony Lasenby
     - Mike Hobson
-  email: lthergt@phas.ubc.ca
+  email: lthergt@posteo.de
   original_image: images/originals/lukas_hergt.jpg
   image: images/lukas_hergt.jpg
   links:
@@ -228,6 +230,7 @@ Ed Higson:
 Danielle Dineen:
   mphil:
     start: 2022-10-01
+  email: ddd25@cam.ac.uk
   original_image: images/originals/danielle_dineen.jpg
   image: images/danielle_dineen.jpg
   links:
@@ -250,7 +253,7 @@ Allahyar Sahibzada:
   mphil:
     start: 2021-10-01
     end: 2022-12-19
-  email: smaa4@cam.ac.uk
+  email: sahibzada.m.a.allahyar@gmail.com
   original_image: images/originals/allahyar_sahibzada.jpeg
   image: images/allahyar_sahibzada.jpg
 Emma Shen:
@@ -396,6 +399,7 @@ Ward Haddadin:
   summer:
     start: 2018-06-01
     end: 2018-09-01
+  email: wardhaddadin@hotmail.com
   original_image: images/originals/ward_haddadin.jpg
   image: images/ward_haddadin.jpg
   destination:
@@ -426,7 +430,6 @@ Stephen Pickman:
   partiii:
     start: 2016-10-01
     end: 2017-06-01
-  email: linkedin
   original_image: images/originals/stephen_pickman.jpeg
   image: images/stephen_pickman.jpg
   destination:
@@ -435,7 +438,7 @@ Artyom Baryshnikov:
   summer:
     start: 2022-06-27
     end: 2022-08-26
-  email: ab2552@cam.ac.uk
+  email: ab399001@gmail.com
   original_image: images/originals/artyom_baryshnikov.png
   image: images/artyom_baryshnikov.jpg
   links:
@@ -455,7 +458,7 @@ Mary Letey:
   summer:
     start: 2022-06-24
     end: 2022-08-22
-  email: mil26@cam.ac.uk
+  email: mary@letey.net
   original_image: images/originals/mary_letey.jpg
   image: images/mary_letey.jpg
   links:
