@@ -279,6 +279,12 @@ Panagiotis Mavrogiannis:
   image: images/panagiotis_mavrogiannis.jpg
   destination:
     2018-10-01: PhD in Astrophysics, Thessaloniki, Greece
+Toby Lovick:
+  partiii:
+    start: 2022-10-01
+    supervisors:
+    - Suhail Dhawan
+  email: tcl44@cam.ac.uk
 Zixiao Hu:
   partiii:
     start: 2022-10-01
@@ -521,7 +527,7 @@ Elizabeth Guest:
   image: images/elizabeth_guest.jpg
   destination:
     2019-10-01: MSc in Theoretical Chemistry, Cambridge
-    2022-10-01: PhD in exoplanet astmospheres, UCL
+    2022-10-01: PhD in exoplanet atmospheres, UCL
 Shu-Fan Chen:
   summer:
     start: 2018-06-01
