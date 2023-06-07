@@ -18,6 +18,6 @@ He leads the data analysis team for REACH, a team of cosmologists designing and 
 
 He is a convener of the GAMBIT cosmology working group, working with a community of cosmologists, particle physicists and statisticians who use terrestrial collider data in conjunction with astrophysical observations to constrain theories of dark matter, neutrinos and modified gravity.
 
-He currently gives the University of Cambridge Part III Physics Master's course "Relativistic Astrophysics and Cosmology", covering Einstein's gravity from the Big Bang to Black Holes in 24 lectures.
+In 2021 and 2022 he gave the University of Cambridge Part III Physics Master's course "Relativistic Astrophysics and Cosmology", covering Einstein's gravity from the Big Bang to Black Holes in 24 lectures.
 
 ![Will Handley](/assets/images/blackboard.png)
