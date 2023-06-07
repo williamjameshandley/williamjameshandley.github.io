@@ -282,24 +282,36 @@ Panagiotis Mavrogiannis:
 Toby Lovick:
   partiii:
     start: 2022-10-01
+    end: 2023-06-01
+    supervisors:
+    - Suhail Dhawan
+  summer:
+    start: 2023-07-24
+    end: 2023-09-15
     supervisors:
     - Suhail Dhawan
   email: tcl44@cam.ac.uk
 Zixiao Hu:
   partiii:
     start: 2022-10-01
+    end: 2023-06-01
+  summer:
+    start: 2023-06-26
+    end: 2023-08-18
   email: zh328@cam.ac.uk
   original_image: images/originals/zixiao_hu.jpeg
   image: images/zixiao_hu.jpg
 Sankalan Bhattacharyya:
   partiii:
     start: 2022-10-01
+    end: 2023-06-01
   email: sb2375@cam.ac.uk
   original_image: images/originals/sankalan_bhattacharyya.jpg
   image: images/sankalan_bhattacharyya.jpg
 Cole Meldorf:
   partiii:
     start: 2022-10-01
+    end: 2023-06-01
   email: cfm51@cam.ac.uk
   original_image: images/originals/cole_meldorf.jpg
   image: images/cole_meldorf.jpg
@@ -440,6 +452,10 @@ Stephen Pickman:
   image: images/stephen_pickman.jpg
   destination:
     2017-10-01: Software developer at DarkTrace
+Namu Kroupa:
+  summer:
+    start: 2023-08-07
+    end: 2023-09-29
 Artyom Baryshnikov:
   summer:
     start: 2022-06-27
