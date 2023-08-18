@@ -29,6 +29,12 @@ Namu Kroupa:
     start: 2023-06-12
     end: 2023-09-30
   email: nk544@cam.ac.uk
+Dily Ong:
+  phd:
+    start: 2023-10-01
+  email: sl2091@cam.ac.uk
+  original_image: images/originals/dily_ong.jpg
+  image: images/dily_ong.jpg
 Sinah Legner:
   phd:
     start: 2022-10-01
@@ -308,7 +314,7 @@ Zixiao Hu:
   summer:
     start: 2023-06-26
     end: 2023-08-18
-  email: zh328@cam.ac.uk
+  email: zixiao.hu.09@gmail.com
   original_image: images/originals/zixiao_hu.jpeg
   image: images/zixiao_hu.jpg
 Sankalan Bhattacharyya:
