@@ -139,7 +139,7 @@ class Student(object):
         npapers = len(list(search.results()))
 
         if npapers>0:
-            url = f'https://arxiv.org/search/?query=handley%%2C+w%%3B+{surname}%%2C{initial}&searchtype=author'
+            url = f'https://arxiv.org/search/?query=handley%2C+w%3B+{surname}%2C{initial}&searchtype=author'
             return f'<a href="{url}">Shared research papers ({npapers})</a>'
 
 yaml_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.yaml')
