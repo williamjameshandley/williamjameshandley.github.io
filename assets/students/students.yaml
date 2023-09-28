@@ -29,6 +29,8 @@ Namu Kroupa:
     start: 2023-06-12
     end: 2023-09-30
   email: nk544@cam.ac.uk
+  original_image: images/originals/namu_kroupa.jpg
+  image: images/namu_kroupa.jpg
 Dily Ong:
   phd:
     start: 2023-10-01
@@ -328,7 +330,7 @@ Cole Meldorf:
   partiii:
     start: 2022-10-01
     end: 2023-06-01
-  email: cfm51@cam.ac.uk
+  email: colefmeldorf@gmail.com
   original_image: images/originals/cole_meldorf.jpg
   image: images/cole_meldorf.jpg
   links:
