@@ -258,6 +258,8 @@ Danielle Dineen:
   - <a href="https://www.linkedin.com/in/danielle-dineen-34887a120/">linkedin</a>
   - <a href="https://arxiv.org/search/?query=danielle+dineen&searchtype=all&source=header">arxiv
     papers</a>
+  destination:
+    2023-10-01: PhD in Cosmology, Toronto
 Sam Leeney:
   mphil:
     start: 2022-04-11
@@ -352,7 +354,7 @@ Carola Zanoletti:
   - <a href="https://research.ncl.ac.uk/phdstudentships/robinsoncosmology/#Leonard">PhD
     project</a>
   destination:
-    2022-10-01: PhD at Nottingham
+    2022-10-01: PhD in cosmology, Nottingham
 Oliver Normand:
   partiii:
     start: 2021-10-01
@@ -388,7 +390,7 @@ Yi Jer Loh:
   original_image: images/originals/yi_jer_loh.jpg
   image: images/yi_jer_loh.jpg
   destination:
-    2021-10-01: Data Scientist at Spotify
+    2021-10-01: Data Scientist, Spotify
 Aleksandr Petrosyan:
   partiii:
     start: 2019-10-01
@@ -398,7 +400,6 @@ Aleksandr Petrosyan:
   image: images/aleksandr_petrosyan.jpg
   destination:
     2020-10-01: Lead cryptography engineer, Armenia
-    2022-10-01: PhD in Physics, Madrid
 Deaglan Bartlett:
   partiii:
     start: 2018-10-01
@@ -411,6 +412,7 @@ Deaglan Bartlett:
   - <a href="https://arxiv.org/a/bartlett_d_1">arXiv</a>
   destination:
     2019-10-01: PhD in Astrophysics, Oxford
+    2022-10-01: Postdoc in IAP, Paris
 Jamie Bamber:
   partiii:
     start: 2018-10-01
@@ -464,7 +466,7 @@ Bob Knighton:
   original_image: images/originals/bob_knighton.JPG
   image: images/bob_knighton.jpg
   destination:
-    2019-10-01: "PhD in theoretical cosmology, ETH Z\xFCrich"
+    2019-10-01: PhD in theoretical cosmology, ETH Zurich
 Stephen Pickman:
   partiii:
     start: 2016-10-01
