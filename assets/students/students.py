@@ -15,6 +15,7 @@ class Supervisor(object):
 supervisors = [
     Supervisor('Anthony Lasenby', "https://www.phy.cam.ac.uk/directory/lasenbya"),
     Supervisor('Mike Hobson', "https://www.phy.cam.ac.uk/directory/hobsonm"),
+    Supervisor('Will Barker', "https://wevbarker.com/"),
     Supervisor('Eloy de Lera Acedo', "https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo"),
     Supervisor('Anastasia Fialkov',"https://www.ast.cam.ac.uk/people/Anastasia.Fialkov"),
     Supervisor('Nima Razavi-Ghods', "https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"),
