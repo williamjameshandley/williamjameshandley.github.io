@@ -25,6 +25,8 @@ Kamran Javid:
 Namu Kroupa:
   phd:
     start: 2023-10-01
+    supervisors:
+      - Gábor Csányi
   summer:
     start: 2023-06-12
     end: 2023-09-30
@@ -300,7 +302,7 @@ Toby Lovick:
     end: 2023-09-15
     supervisors:
     - Suhail Dhawan
-  email: tcl44@cam.ac.uk
+  email: lovicktoby@gmail.com
 Zixiao Hu:
   partiii:
     start: 2022-10-01
@@ -315,14 +317,14 @@ Sankalan Bhattacharyya:
   partiii:
     start: 2022-10-01
     end: 2023-06-01
-  email: sb2375@cam.ac.uk
+  email: sanku62018@gmail.com
   original_image: images/originals/sankalan_bhattacharyya.jpg
   image: images/sankalan_bhattacharyya.jpg
 Cole Meldorf:
   partiii:
     start: 2022-10-01
     end: 2023-06-01
-  email: cfm51@cam.ac.uk
+  email: colefmeldorf@gmail.com
   original_image: images/originals/cole_meldorf.jpg
   image: images/cole_meldorf.jpg
   links:
