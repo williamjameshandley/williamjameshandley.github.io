@@ -23,6 +23,8 @@ Kamran Javid:
 Namu Kroupa:
   phd:
     start: 2023-10-01
+    supervisors:
+    - "G\xE1bor Cs\xE1nyi"
   summer:
     start: 2023-06-12
     end: 2023-09-30
