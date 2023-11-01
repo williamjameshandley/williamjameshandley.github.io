@@ -10,11 +10,12 @@ class Supervisor(object):
     def __str__(self):
         if self.url is None:
             return self.name
-        return '<a href="%s">%s</a>' % (self.url, self.name)
+        return f'<a href="{self.url}">{self.name}</a>'
 
 supervisors = [
     Supervisor('Anthony Lasenby', "https://www.phy.cam.ac.uk/directory/lasenbya"),
     Supervisor('Mike Hobson', "https://www.phy.cam.ac.uk/directory/hobsonm"),
+    Supervisor('Will Barker', "https://wevbarker.com/"),
     Supervisor('Eloy de Lera Acedo', "https://www.phy.cam.ac.uk/directory/dr-eloy-de-lera-acedo"),
     Supervisor('Anastasia Fialkov',"https://www.ast.cam.ac.uk/people/Anastasia.Fialkov"),
     Supervisor('Nima Razavi-Ghods', "https://www.phy.cam.ac.uk/staff/dr-nima-razavi-ghods"),
@@ -23,6 +24,7 @@ supervisors = [
     Supervisor('Malak Olamaie', "https://www.yorksj.ac.uk/our-staff/staff-profiles/malak-olamaie.php"),
     Supervisor('David Stefanyszyn',"https://www.nottingham.ac.uk/physics/people/david.stefanyszyn"),
     Supervisor('Suhail Dhawan',"https://www.lucy.cam.ac.uk/fellows/dr-suhail-dhawan"),
+    Supervisor('Gábor Csányi',"http://www.eng.cam.ac.uk/profiles/gc121"),
 ]
 
 supervisors = {s.name:s for s in supervisors}
@@ -131,22 +133,22 @@ class Student(object):
         import arxiv
         arr = self.name.split(' ')
         surname = arr[-1]
-        initial = arr[0][0]
+        initial = ','.join([section[0] for section in arr[0].split('-')])
 
-        query = 'au:Handley_W AND au:%s_%s' % (surname, initial)
+        query = f'au:Handley_W AND au:{surname}_{initial}'
         query = query.replace('-','_')
         search = arxiv.Search(query=query)
         npapers = len(list(search.results()))
 
         if npapers>0:
-            url = r'https://arxiv.org/search/?query=handley%%2C+w%%3B+%s%%2C%s&searchtype=author' % (surname, initial)
-            return '<a href="%s">Shared research papers (%i)</a>' % (url, npapers)
+            url = f'https://arxiv.org/search/?query=handley%2C+w%3B+{surname}%2C{initial}&searchtype=author'
+            return f'<a href="{url}">Shared research papers ({npapers})</a>'
 
 yaml_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'students.yaml')
-#yaml_file = 'students.yaml'
 
 with open(yaml_file) as f:
     students = [Student(name, **kwargs) for name, kwargs in yaml.safe_load(f).items()]
+
 
 students = sorted(students)
 

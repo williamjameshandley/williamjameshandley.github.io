@@ -25,13 +25,25 @@ Kamran Javid:
 Namu Kroupa:
   phd:
     start: 2023-10-01
+    supervisors:
+    - "G\xE1bor Cs\xE1nyi"
   summer:
     start: 2023-06-12
     end: 2023-09-30
   email: nk544@cam.ac.uk
+  original_image: images/originals/namu_kroupa.jpg
+  image: images/namu_kroupa.jpg
+Dily Ong:
+  phd:
+    start: 2023-10-01
+  email: sl2091@cam.ac.uk
+  original_image: images/originals/dily_ong.jpg
+  image: images/dily_ong.jpg
 Sinah Legner:
   phd:
     start: 2022-10-01
+    supervisors:
+    - Will Barker
   email: sl2091@cam.ac.uk
   original_image: images/originals/sinah_legner.jpg
   image: images/sinah_legner.jpg
@@ -240,13 +252,16 @@ Ed Higson:
 Danielle Dineen:
   mphil:
     start: 2022-10-01
-  email: ddd25@cam.ac.uk
+    end: 2023-09-15
+  email: danielle.dineen@mail.utoronto.ca
   original_image: images/originals/danielle_dineen.jpg
   image: images/danielle_dineen.jpg
   links:
   - <a href="https://www.linkedin.com/in/danielle-dineen-34887a120/">linkedin</a>
   - <a href="https://arxiv.org/search/?query=danielle+dineen&searchtype=all&source=header">arxiv
     papers</a>
+  destination:
+    2023-10-01: PhD in Cosmology, Toronto
 Sam Leeney:
   mphil:
     start: 2022-04-11
@@ -300,7 +315,7 @@ Toby Lovick:
     end: 2023-09-15
     supervisors:
     - Suhail Dhawan
-  email: tcl44@cam.ac.uk
+  email: lovicktoby@gmail.com
 Zixiao Hu:
   partiii:
     start: 2022-10-01
@@ -308,21 +323,21 @@ Zixiao Hu:
   summer:
     start: 2023-06-26
     end: 2023-08-18
-  email: zh328@cam.ac.uk
+  email: zixiao.hu.09@gmail.com
   original_image: images/originals/zixiao_hu.jpeg
   image: images/zixiao_hu.jpg
 Sankalan Bhattacharyya:
   partiii:
     start: 2022-10-01
     end: 2023-06-01
-  email: sb2375@cam.ac.uk
+  email: sanku62018@gmail.com
   original_image: images/originals/sankalan_bhattacharyya.jpg
   image: images/sankalan_bhattacharyya.jpg
 Cole Meldorf:
   partiii:
     start: 2022-10-01
     end: 2023-06-01
-  email: cfm51@cam.ac.uk
+  email: colefmeldorf@gmail.com
   original_image: images/originals/cole_meldorf.jpg
   image: images/cole_meldorf.jpg
   links:
@@ -341,7 +356,7 @@ Carola Zanoletti:
   - <a href="https://research.ncl.ac.uk/phdstudentships/robinsoncosmology/#Leonard">PhD
     project</a>
   destination:
-    2022-10-01: PhD at Nottingham
+    2022-10-01: PhD in cosmology, Nottingham
 Oliver Normand:
   partiii:
     start: 2021-10-01
@@ -377,7 +392,7 @@ Yi Jer Loh:
   original_image: images/originals/yi_jer_loh.jpg
   image: images/yi_jer_loh.jpg
   destination:
-    2021-10-01: Data Scientist at Spotify
+    2021-10-01: Data Scientist, Spotify
 Aleksandr Petrosyan:
   partiii:
     start: 2019-10-01
@@ -387,7 +402,6 @@ Aleksandr Petrosyan:
   image: images/aleksandr_petrosyan.jpg
   destination:
     2020-10-01: Lead cryptography engineer, Armenia
-    2022-10-01: PhD in Physics, Madrid
 Deaglan Bartlett:
   partiii:
     start: 2018-10-01
@@ -400,6 +414,7 @@ Deaglan Bartlett:
   - <a href="https://arxiv.org/a/bartlett_d_1">arXiv</a>
   destination:
     2019-10-01: PhD in Astrophysics, Oxford
+    2022-10-01: Postdoc in IAP, Paris
 Jamie Bamber:
   partiii:
     start: 2018-10-01
@@ -453,7 +468,7 @@ Bob Knighton:
   original_image: images/originals/bob_knighton.JPG
   image: images/bob_knighton.jpg
   destination:
-    2019-10-01: "PhD in theoretical cosmology, ETH Z\xFCrich"
+    2019-10-01: PhD in theoretical cosmology, ETH Zurich
 Stephen Pickman:
   partiii:
     start: 2016-10-01
