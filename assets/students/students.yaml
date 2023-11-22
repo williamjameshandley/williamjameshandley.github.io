@@ -283,6 +283,8 @@ Tze Goh:
     start: 2023-10-01
     supervisors:
     - Suhail Dhawan
+  original_image: images/originals/tze_goh.jpeg
+  image: images/tze_goh.jpg
 Patrick Lau:
   partiii:
     start: 2023-10-01
