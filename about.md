@@ -11,7 +11,7 @@ Will Handley is a Royal Society University Research Fellow whose interdisciplina
 
 Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics and gravity has on the universe a split second after the Big Bang. In addition to theoretical investigation, he also examines the observational consequences of these new theories; testing them against the latest data from microwave telescopes and large scale structure surveys using the University supercomputers.
 
-With his [research group](students) he develops novel Bayesian machine learning algorithms for high-dimensional parameter estimation, model comparison and tension quantification using nested sampling. Their current research programme combines nested sampling with the emerging field of Simulation Based Inference; this aims to widen the scope of applications of Bayesian inference, whilst simultaneously bringing interpretability and explainability to modern artificial intelligence methods. 
+With his [research group](/students) he develops novel Bayesian machine learning algorithms for high-dimensional parameter estimation, model comparison and tension quantification using nested sampling. Their current research programme combines nested sampling with the emerging field of Simulation Based Inference; this aims to widen the scope of applications of Bayesian inference, whilst simultaneously bringing interpretability and explainability to modern artificial intelligence methods. 
 
 He leads the data analysis team for REACH, a team of cosmologists designing and operating a radio telescope to make an unambiguous detection of the global 21cm signal coming from the cosmic dawn.
 
