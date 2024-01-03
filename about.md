@@ -9,7 +9,7 @@ Will Handley is a Royal Society University Research Fellow whose interdisciplina
 
 ![Will Handley](/assets/images/computer_1.jpeg){: style="width: 50%; float: right; border-radius:20%"}
 
-Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics and gravity has on the universe a split second after the Big Bang. In addition to theoretical investigation, he also examines the observational consequences of these new theories; testing them against the latest data from microwave telescopes and large scale structure surveys using the University supercomputers.
+Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics and gravity have on the universe a split second after the Big Bang. In addition to theoretical investigation, he also examines the observational consequences of these new theories; testing them against the latest data from microwave telescopes and large scale structure surveys using the University supercomputers.
 
 With his [research group](/students) he develops novel Bayesian machine learning algorithms for high-dimensional parameter estimation, model comparison and tension quantification using nested sampling. Their current research programme combines nested sampling with the emerging field of Simulation Based Inference; this aims to widen the scope of applications of Bayesian inference, whilst simultaneously bringing interpretability and explainability to modern artificial intelligence methods. 
 
