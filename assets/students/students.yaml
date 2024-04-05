@@ -1,3 +1,20 @@
+Thomas Gessey-Jones:
+  postdoc:
+    start: 2024-04-01
+  phd:
+    start: 2020-10-01
+    end: 2024-03-31
+    supervisors:
+    - Eloy de Lera Acedo
+    - Anastasia Fialkov
+  partiii:
+    start: 2019-10-01
+    end: 2020-06-01
+  original_image: images/originals/thomas_gessey-jones.jpg
+  image: images/thomas_gessey-jones.jpg
+  links:
+  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
+  - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
 David Yallup:
   postdoc:
     start: 2021-01-10
@@ -55,6 +72,22 @@ Wei-Ning Deng:
     start: 2022-10-01
   original_image: images/originals/wei-ning_deng.jpg
   image: images/wei-ning_deng.jpg
+Sam Leeney:
+  phd:
+    start: 2022-04-11
+    supervisors:
+    - Eloy de Lera Acedo
+    - Harry Bevins
+  mphil:
+    start: 2022-04-11
+    end: 2022-12-30
+    supervisors:
+    - Eloy de Lera Acedo
+  original_image: images/originals/sam_leeney.jpeg
+  image: images/sam_leeney.jpg
+  links:
+  - <a href="https://github.com/samleeney">Webpage</a>
+  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Adam Ormondroyd:
   phd:
     start: 2021-10-01
@@ -93,20 +126,6 @@ George Carter:
     - Mark Ashdown
   original_image: originals/images/george_carter.jpg
   image: images/george_carter.jpg
-Thomas Gessey-Jones:
-  phd:
-    start: 2020-10-01
-    supervisors:
-    - Eloy de Lera Acedo
-    - Anastasia Fialkov
-  partiii:
-    start: 2019-10-01
-    end: 2020-06-01
-  original_image: images/originals/thomas_gessey-jones.jpg
-  image: images/thomas_gessey-jones.jpg
-  links:
-  - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
-  - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
 Thomas Mcaloone:
   phd:
     start: 2020-06-10
@@ -241,17 +260,6 @@ Danielle Dineen:
     papers</a>
   destination:
     2023-10-01: PhD in Cosmology, Toronto
-Sam Leeney:
-  mphil:
-    start: 2022-04-11
-    end: 2022-12-30
-    supervisors:
-    - Eloy de Lera Acedo
-  original_image: images/originals/sam_leeney.jpeg
-  image: images/sam_leeney.jpg
-  links:
-  - <a href="https://github.com/samleeney">Webpage</a>
-  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Allahyar Sahibzada:
   mphil:
     start: 2021-10-01
