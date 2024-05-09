@@ -52,6 +52,22 @@ Dily Ong:
     start: 2023-10-01
   original_image: images/originals/dily_ong.jpg
   image: images/dily_ong.jpg
+Sam Leeney:
+  phd:
+    start: 2023-10-01
+    supervisors:
+    - Eloy de Lera Acedo
+    - Harry Bevins
+  mphil:
+    start: 2022-04-11
+    end: 2022-12-30
+    supervisors:
+    - Eloy de Lera Acedo
+  original_image: images/originals/sam_leeney.jpeg
+  image: images/sam_leeney.jpg
+  links:
+  - <a href="https://github.com/samleeney">Webpage</a>
+  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Sinah Legner:
   phd:
     start: 2022-10-01
@@ -72,22 +88,6 @@ Wei-Ning Deng:
     start: 2022-10-01
   original_image: images/originals/wei-ning_deng.jpg
   image: images/wei-ning_deng.jpg
-Sam Leeney:
-  phd:
-    start: 2022-04-11
-    supervisors:
-    - Eloy de Lera Acedo
-    - Harry Bevins
-  mphil:
-    start: 2022-04-11
-    end: 2022-12-30
-    supervisors:
-    - Eloy de Lera Acedo
-  original_image: images/originals/sam_leeney.jpeg
-  image: images/sam_leeney.jpg
-  links:
-  - <a href="https://github.com/samleeney">Webpage</a>
-  - <a href="https://www.cavendishradiocosmology.com/">Group Webpage</a>
 Adam Ormondroyd:
   phd:
     start: 2021-10-01
