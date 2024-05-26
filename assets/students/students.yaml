@@ -290,6 +290,7 @@ Panagiotis Mavrogiannis:
 Tze Goh:
   partiii:
     start: 2023-10-01
+    end: 2024-06-01
     supervisors:
     - Suhail Dhawan
   original_image: images/originals/tze_goh.jpeg
@@ -297,17 +298,21 @@ Tze Goh:
 Patrick Lau:
   partiii:
     start: 2023-10-01
+    end: 2024-06-01
 Felicity Ibrahim:
   partiii:
     start: 2023-10-01
+    end: 2024-06-01
   original_image: images/originals/felicity_ibrahim.png
   image: images/felicity_ibrahim.jpg
 Samuel Hewson:
   partiii:
     start: 2023-10-01
+    end: 2024-06-01
 Nicolas Mediato Diaz:
   partiii:
     start: 2023-10-01
+    end: 2024-06-01
 Toby Lovick:
   partiii:
     start: 2022-10-01
