@@ -1,6 +1,7 @@
 Thomas Gessey-Jones:
   postdoc:
     start: 2024-04-01
+    end: 2024-08-04
   phd:
     start: 2020-10-01
     end: 2024-03-31
@@ -15,6 +16,8 @@ Thomas Gessey-Jones:
   links:
   - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
   - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
+  destination:
+    2024-08-05: <a href="https://www.physicx.ai/">PhysicsX</a>
 David Yallup:
   postdoc:
     start: 2021-01-10
@@ -208,6 +211,7 @@ Fruzsina Agocs:
   - <a href="https://www.simonsfoundation.org/people/fruzsina-agocs/">Group webpage</a>
   destination:
     2021-10-01: 3y fellowship CCM New York
+    2024-10-01: Assistant Professor at Boulder, Colorado
 Will Barker:
   phd:
     start: 2017-10-01
@@ -462,6 +466,7 @@ Bob Knighton:
   image: images/bob_knighton.jpg
   destination:
     2019-10-01: PhD in theoretical cosmology, ETH Zurich
+    2023-10-01: Postdoc at DAMTP (Cambridge)
 Stephen Pickman:
   partiii:
     start: 2016-10-01
@@ -497,7 +502,8 @@ Mary Letey:
   links:
   - <a href="https://www.linkedin.com/in/maryletey">linkedin</a>
   destination:
-    2022-10-01: Msc in Physics, Perimeter Institute
+    2022-10-01: Msc in Theoretical Physics, Perimeter Institute
+    2023-10-01: PhD in Applied Mathematics, Harvard
 Mattia Varrone:
   summer:
     start: 2021-06-21
