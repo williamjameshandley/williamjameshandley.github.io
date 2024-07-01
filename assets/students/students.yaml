@@ -486,6 +486,8 @@ Charlotte Priestley:
   summer:
     start: 2024-07-01
     end: 2024-09-27
+  original_image: images/originals/charlotte_priestley.jpg
+  image: images/charlotte_priestley.jpg
 Artyom Baryshnikov:
   summer:
     start: 2022-06-27
