@@ -26,6 +26,18 @@ David Yallup:
   links:
   - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
   - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
+George Carter:
+  postdoc:
+    start: 2020-08-12
+    end: 2023-11-12
+  phd:
+    start: 2020-10-01
+    end: 2024-08-11
+    supervisors:
+    - Nima Razavi-Ghods
+    - Mark Ashdown
+  original_image: originals/images/george_carter.jpg
+  image: images/george_carter.jpg
 Kamran Javid:
   postdoc:
     start: 2018-10-01
@@ -113,6 +125,7 @@ Ayngaran Thavanesan:
 Kilian Scheutwinkel:
   phd:
     start: 2020-12-01
+    end: 2020-08-09
     supervisors:
     - Eloy de Lera Acedo
   original_image: images/originals/kilian_scheutwinkel.JPG
@@ -121,14 +134,6 @@ Kilian Scheutwinkel:
   - <a href="https://www.c2d3.cam.ac.uk/directory/8681/mr-kilian-scheutwinkel">C2D3
     profile</a>
   - <a href="https://www.cavendishradiocosmology.com/">Group webpage</a>
-George Carter:
-  phd:
-    start: 2020-10-01
-    supervisors:
-    - Nima Razavi-Ghods
-    - Mark Ashdown
-  original_image: originals/images/george_carter.jpg
-  image: images/george_carter.jpg
 Thomas Mcaloone:
   phd:
     start: 2020-06-10
