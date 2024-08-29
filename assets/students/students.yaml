@@ -18,17 +18,9 @@ Thomas Gessey-Jones:
   - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
   destination:
     2024-08-05: <a href="https://www.physicx.ai/">PhysicsX</a>
-David Yallup:
-  postdoc:
-    start: 2021-01-10
-  original_image: images/originals/david_yallup.jpg
-  image: images/david_yallup.jpg
-  links:
-  - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
-  - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
 George Carter:
   postdoc:
-    start: 2020-08-12
+    start: 2023-08-12
     end: 2023-11-12
   phd:
     start: 2020-10-01
@@ -38,6 +30,14 @@ George Carter:
     - Mark Ashdown
   original_image: originals/images/george_carter.jpg
   image: images/george_carter.jpg
+David Yallup:
+  postdoc:
+    start: 2021-01-10
+  original_image: images/originals/david_yallup.jpg
+  image: images/david_yallup.jpg
+  links:
+  - <a href="https://orcid.org/0000-0003-4716-5817">ORCiD</a>
+  - <a href="https://www.linkedin.com/in/dyallup/">linkedin</a>
 Kamran Javid:
   postdoc:
     start: 2018-10-01
