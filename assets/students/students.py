@@ -134,7 +134,8 @@ class Student(object):
         import arxiv
         arr = self.name.split(' ')
         surname = arr[-1]
-        initial = ','.join([section[0] for section in arr[0].split('-')])
+        #initial = ','.join([section[0] for section in arr[0].split('-')])
+        initial = arr[0][0]
 
         query = f'au:Handley_W AND au:{surname}_{initial}'
         query = query.replace('-','_')

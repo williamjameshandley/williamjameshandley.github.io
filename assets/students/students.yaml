@@ -189,6 +189,9 @@ Ian Roque:
   image: images/ian_roque.jpg
   links:
   - <a href="https://www.astro.phy.cam.ac.uk/directory/ian-roque">Webpage</a>
+  destination:
+    2024-08-01: <a href="https://profiles.stanford.edu/ian-roque">Stanford SLAC staff
+      engineer</a>
 Dominic Anstey:
   phd:
     start: 2018-10-01
@@ -230,7 +233,7 @@ Will Barker:
   - <a href="https://wevbarker.com">Webpage</a>
   destination:
     2021-10-01: 3y Junior Research Fellowship (Girton, Cambridge)
-    2024-10-01: 2y Marie Curie fellowship
+    2024-10-01: 2y Marie Curie fellowship prague
 Lukas Hergt:
   phd:
     start: 2017-01-01
@@ -490,7 +493,7 @@ Stephen Pickman:
 Charlotte Priestley:
   summer:
     start: 2024-07-01
-    end: 2024-09-27
+    end: 2024-08-30
   original_image: images/originals/charlotte_priestley.jpg
   image: images/charlotte_priestley.jpg
 Artyom Baryshnikov:
