@@ -1,3 +1,15 @@
+George Carter:
+  postdoc:
+    start: 2024-08-12
+    end: 2024-11-12
+  phd:
+    start: 2020-10-01
+    end: 2024-08-11
+    supervisors:
+    - Nima Razavi-Ghods
+    - Mark Ashdown
+  original_image: originals/images/george_carter.jpg
+  image: images/george_carter.jpg
 Thomas Gessey-Jones:
   postdoc:
     start: 2024-04-01
@@ -18,18 +30,6 @@ Thomas Gessey-Jones:
   - <a href="https://arxiv.org/search/?query=T+Gessey-Jones&searchtype=all&abstracts=show&order=-announced_date_first&size=50">arXiv</a>
   destination:
     2024-08-05: <a href="https://www.physicx.ai/">PhysicsX</a>
-George Carter:
-  postdoc:
-    start: 2023-08-12
-    end: 2023-11-12
-  phd:
-    start: 2020-10-01
-    end: 2024-08-11
-    supervisors:
-    - Nima Razavi-Ghods
-    - Mark Ashdown
-  original_image: originals/images/george_carter.jpg
-  image: images/george_carter.jpg
 David Yallup:
   postdoc:
     start: 2021-01-10
