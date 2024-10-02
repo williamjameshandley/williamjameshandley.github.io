@@ -33,6 +33,7 @@ layout: home
 <p>
 Quick links:
 <ul class="fa-ul">
+<li><a href="https://handley-lab.co.uk" title="Lab website"><span class="fa-li"><i class="fa fa-users"></i></span> Lab website </a></li>
 <li><a href="/students" title="Students & postdocs"><span class="fa-li"><i class="fa fa-users"></i></span> Students & postdocs </a></li>
 <li><a href="/about" title="About"><span class="fa-li"><i class="fa fa-user"></i></span> About </a></li>
 <li><a href="https://github.com/williamjameshandley/CV/raw/master/CV_will_handley.pdf" title="CV"><span class="fa-li"><i class="fa fa-file"></i></span> CV </a></li>
