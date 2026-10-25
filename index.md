@@ -27,7 +27,7 @@ layout: home
 
 <div class="grid">
 <div class="grid-item">
-<p>Will Handley is a Royal Society University Research Fellow at the University of Cambridge whose research centres around early universe cosmology and Bayesian machine learning.</p>
+<p>Will Handley is Professor of Cosmology at the University of Cambridge whose research centres around early universe cosmology and Bayesian machine learning, including AI and GPU computing to link fundamental physics with cosmological and particle-physics data.</p>
 
 
 <p>

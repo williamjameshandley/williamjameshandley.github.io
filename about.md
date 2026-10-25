@@ -5,13 +5,15 @@ permalink: /about/
 ---
 
 
-Will Handley is a Royal Society University Research Fellow whose interdisciplinary research programme blends the frontier of data analysis with applications in astronomy, particle physics and beyond.
+Will Handley is Professor of Cosmology at the Institute of Astronomy, University of Cambridge, and Royal Society University Research Fellow whose interdisciplinary research programme blends the frontier of data analysis with applications in astronomy, particle physics and beyond.
 
 ![Will Handley](/assets/images/computer_1.jpeg){: style="width: 50%; float: right; border-radius:20%"}
 
 Since his PhD he has maintained an interest in the initial conditions for inflation, examining the effect that high energy physics and gravity have on the universe a split second after the Big Bang. In addition to theoretical investigation, he also examines the observational consequences of these new theories; testing them against the latest data from microwave telescopes and large scale structure surveys using the University supercomputers.
 
 With his [research group](https://handley-lab.co.uk) he develops novel Bayesian machine learning algorithms for high-dimensional parameter estimation, model comparison and tension quantification using nested sampling. Their current research programme combines nested sampling with the emerging field of Simulation Based Inference; this aims to widen the scope of applications of Bayesian inference, whilst simultaneously bringing interpretability and explainability to modern artificial intelligence methods. 
+
+His recent research uses GPU-native implementations to make rigorous Bayesian analysis of fundamental-physics models against cosmological and particle-physics data routine at scale, testing primordial physics, dark matter and gravity and investigating cosmological tensions. He also uses AI to build and verify scientific software, with humans responsible for the physics and its verification. In AInstein he studies whether a language model trained only on the pre-1905 record can reconstruct physics discovered later.
 
 He leads the data analysis team for REACH, a team of cosmologists designing and operating a radio telescope to make an unambiguous detection of the global 21cm signal coming from the cosmic dawn.
 
